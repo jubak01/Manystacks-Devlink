@@ -8,4 +8,5 @@ declare function HeaderMarketPlace(props: {
   category1?: React.ReactNode;
   category2?: React.ReactNode;
   route0?: React.ReactNode;
+  productLength?: React.ReactNode;
 }): React.JSX.Element;

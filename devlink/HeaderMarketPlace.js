@@ -15,6 +15,7 @@ export function HeaderMarketPlace({
   category1 = "Accessoires",
   category2 = "Imprimantes",
   route0 = "Catalogue",
+  productLength = "8",
 }) {
   _interactions.useInteractions(_interactionsData, _styles);
 
@@ -168,7 +169,7 @@ export function HeaderMarketPlace({
         </_Builtin.Block>
         <_Builtin.Block className={_utils.cx(_styles, "div-block")} tag="div">
           <_Builtin.Block className={_utils.cx(_styles, "text-402")} tag="div">
-            {"0"}
+            {productLength}
           </_Builtin.Block>
           <_Builtin.Block className={_utils.cx(_styles, "text-402")} tag="div">
             {" produits"}
