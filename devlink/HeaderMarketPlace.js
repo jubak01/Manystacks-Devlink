@@ -11,6 +11,10 @@ const _interactionsData = JSON.parse(
 export function HeaderMarketPlace({
   as: _Component = _Builtin.Block,
   articlesLength = "4",
+  category0 = "Appareils",
+  category1 = "Accessoires",
+  category2 = "Imprimantes",
+  route0 = "Catalogue",
 }) {
   _interactions.useInteractions(_interactionsData, _styles);
 
@@ -88,7 +92,7 @@ export function HeaderMarketPlace({
                 className={_utils.cx(_styles, "", "text")}
                 tag="div"
               >
-                {"Appareils"}
+                {category0}
               </_Builtin.Block>
             </_Builtin.Block>
             <_Builtin.Block
@@ -99,7 +103,7 @@ export function HeaderMarketPlace({
                 className={_utils.cx(_styles, "", "text")}
                 tag="div"
               >
-                {"Accessoires"}
+                {category1}
               </_Builtin.Block>
             </_Builtin.Block>
             <_Builtin.Block
@@ -110,7 +114,7 @@ export function HeaderMarketPlace({
                 className={_utils.cx(_styles, "", "text")}
                 tag="div"
               >
-                {"Imprimantes"}
+                {category2}
               </_Builtin.Block>
             </_Builtin.Block>
           </_Builtin.Block>
@@ -160,7 +164,7 @@ export function HeaderMarketPlace({
       </_Builtin.Block>
       <_Builtin.Block className={_utils.cx(_styles, "frame-102")} tag="div">
         <_Builtin.Block className={_utils.cx(_styles, "text-401")} tag="div">
-          {"Catalogue"}
+          {route0}
         </_Builtin.Block>
         <_Builtin.Block className={_utils.cx(_styles, "div-block")} tag="div">
           <_Builtin.Block className={_utils.cx(_styles, "text-402")} tag="div">
