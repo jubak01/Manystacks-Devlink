@@ -17,41 +17,37 @@
 
 .container {
   display: flex;
-}
-
-.container.justifyspacebetween {
-  justify-content: space-between;
-}
-
-.containerhorizontal {
-  display: flex;
   align-items: stretch;
   flex: 0 auto;
 }
 
 @media screen and (min-width: 1440px) {
-  .containerhorizontal {
+  .container {
     height: 44px;
     min-height: 44px;
   }
 }
 
-.containerhorizontal.gap12px {
+.container.gap12px {
   grid-column-gap: 12px;
   grid-row-gap: 12px;
 }
 
-.containerhorizontal.gap12px._44pxheight {
+.container.gap12px._44pxheight {
   height: 44px;
   min-height: 44px;
 }
 
-.containerhorizontal.gap12px.justifyright {
+.container.gap12px.justifyright {
   justify-content: flex-end;
 }
 
-.containerhorizontal.gap12px.justifyright.margin12pxleft {
+.container.gap12px.justifyright.margin12pxleft {
   margin-left: 12px;
+}
+
+.container.justifyspacebetween {
+  justify-content: space-between;
 }
 
 .pageselector {
