@@ -1,6 +1,6 @@
 /* Fonts */
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,regular,500,600,700,800,900&subset=latin');
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,regular,500,600,700,800,900|Unbounded:200,300,regular,500,600,700,800,900&subset=latin');
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -2183,7 +2183,10 @@ textarea.w-select {
 
 :root {
   --grey-100: hsla(216, 17.24%, 94.31%, 1.00);
-  --grey-200: #d5dae1;
+  --grey-50: rgba(247, 248, 249, 1);
+  --grey-900: #2a3342;
   --grey300: #bbc3cf;
+  --grey400: rgba(136, 150, 171, 1);
+  --grey-200: #d5dae1;
   --main: #7070ff;
 }
