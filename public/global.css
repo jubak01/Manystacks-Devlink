@@ -124,6 +124,10 @@
   justify-content: flex-end;
 }
 
+.containerhorizontal.gap12px.justifyright.margin12pxleft {
+  margin-left: 12px;
+}
+
 .pageselector {
   grid-column-gap: 8px;
   grid-row-gap: 8px;
@@ -490,5 +494,3 @@
     grid-area: span 1 / span 2 / span 1 / span 2;
   }
 }
-
-

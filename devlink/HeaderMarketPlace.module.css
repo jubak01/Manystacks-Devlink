@@ -50,6 +50,10 @@
   justify-content: flex-end;
 }
 
+.containerhorizontal.gap12px.justifyright.margin12pxleft {
+  margin-left: 12px;
+}
+
 .pageselector {
   display: flex;
   padding: 12px 20px;
