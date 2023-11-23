@@ -47,7 +47,7 @@ export function HeaderMarketPlace({
             tag="div"
           >
             <_Builtin.Image
-              className={_utils.cx(_styles, "vectors-wrapper-3")}
+              className={_utils.cx(_styles, "image20x20px")}
               loading="lazy"
               width="20"
               height="20"

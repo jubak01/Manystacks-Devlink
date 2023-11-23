@@ -90,15 +90,11 @@
   }
 }
 
-.vectors-wrapper-3 {
-  display: flex;
+.image20x20px {
   width: 20px;
   height: 20px;
   min-height: 20px;
   min-width: 20px;
-  justify-content: center;
-  align-items: center;
-
   object-fit: cover;
 }
 
@@ -141,14 +137,6 @@
 
 .text14px.grey400 {
   color: var(--grey400);
-}
-
-.image20x20px {
-  width: 20px;
-  height: 20px;
-  min-height: 20px;
-  min-width: 20px;
-  object-fit: cover;
 }
 
 .separatorvertical {
