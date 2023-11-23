@@ -22,10 +22,7 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .container {
-    height: 44px;
-    min-height: 44px;
-  }
+
 }
 
 .container.gap12px {
@@ -48,6 +45,12 @@
 
 .container.justifyspacebetween {
   justify-content: space-between;
+}
+
+@media screen and (max-width: 991px) {
+  .container.horizontalthenvertical {
+    flex-direction: column;
+  }
 }
 
 .pageselector {
