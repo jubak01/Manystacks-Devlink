@@ -123,9 +123,10 @@ export function StacksComponent({ as: _Component = _Builtin.Block }) {
               "vertical",
               "center",
               "gap4px",
-              "padding20px",
+              "padding12px",
               "white",
               "round",
+              "_170x170",
               "clickable"
             )}
             id={_utils.cx(
@@ -135,17 +136,22 @@ export function StacksComponent({ as: _Component = _Builtin.Block }) {
             tag="div"
           >
             <_Builtin.Image
-              className={_utils.cx(_styles, "image")}
+              className={_utils.cx(_styles, "image", "_80")}
               loading="lazy"
               width="134"
               height="117.17241668701172"
               src="https://uploads-ssl.webflow.com/65474f5b3ac46dc4b33db7b7/65531b7f30cbff3ff0dd9293_image-1.png"
             />
             <_Builtin.Block
-              className={_utils.cx(_styles, "text12px", "medium")}
+              className={_utils.cx(_styles, "div-block-8")}
               tag="div"
             >
-              {"Macbook Air 13’’ (2020)"}
+              <_Builtin.Block
+                className={_utils.cx(_styles, "text14px", "medium", "nowrap")}
+                tag="div"
+              >
+                {"Macbook Air 13’’ (2020)"}
+              </_Builtin.Block>
             </_Builtin.Block>
           </_Builtin.Block>
           <_Builtin.Block
@@ -155,29 +161,35 @@ export function StacksComponent({ as: _Component = _Builtin.Block }) {
               "vertical",
               "center",
               "gap4px",
-              "padding20px",
+              "padding12px",
               "white",
               "round",
+              "_170x170",
               "clickable"
             )}
             id={_utils.cx(
               _styles,
-              "w-node-_0b8ea749-f48b-4a3f-a4b8-f254f500a539-3567e886"
+              "w-node-_8822c055-7da7-201d-2f3a-418e6b888972-3567e886"
             )}
             tag="div"
           >
             <_Builtin.Image
-              className={_utils.cx(_styles, "image")}
+              className={_utils.cx(_styles, "image", "_80")}
               loading="lazy"
               width="134"
               height="117.17241668701172"
               src="https://uploads-ssl.webflow.com/65474f5b3ac46dc4b33db7b7/65531b7f30cbff3ff0dd9293_image-1.png"
             />
             <_Builtin.Block
-              className={_utils.cx(_styles, "text12px", "medium")}
+              className={_utils.cx(_styles, "div-block-8")}
               tag="div"
             >
-              {"Macbook Air 13’’ (2020)"}
+              <_Builtin.Block
+                className={_utils.cx(_styles, "text14px", "medium", "nowrap")}
+                tag="div"
+              >
+                {"Macbook Air 13’’ (2020)"}
+              </_Builtin.Block>
             </_Builtin.Block>
           </_Builtin.Block>
           <_Builtin.Block
@@ -187,29 +199,35 @@ export function StacksComponent({ as: _Component = _Builtin.Block }) {
               "vertical",
               "center",
               "gap4px",
-              "padding20px",
+              "padding12px",
               "white",
               "round",
+              "_170x170",
               "clickable"
             )}
             id={_utils.cx(
               _styles,
-              "w-node-_51834ba4-9274-4be7-1041-3db099bdaf39-3567e886"
+              "w-node-fbde0604-a2c1-72c8-3e13-0625d8f088fd-3567e886"
             )}
             tag="div"
           >
             <_Builtin.Image
-              className={_utils.cx(_styles, "image")}
+              className={_utils.cx(_styles, "image", "_80")}
               loading="lazy"
               width="134"
               height="117.17241668701172"
               src="https://uploads-ssl.webflow.com/65474f5b3ac46dc4b33db7b7/65531b7f30cbff3ff0dd9293_image-1.png"
             />
             <_Builtin.Block
-              className={_utils.cx(_styles, "text12px", "medium")}
+              className={_utils.cx(_styles, "div-block-8")}
               tag="div"
             >
-              {"Macbook Air 13’’ (2020)"}
+              <_Builtin.Block
+                className={_utils.cx(_styles, "text14px", "medium", "nowrap")}
+                tag="div"
+              >
+                {"Macbook Air 13’’ (2020)"}
+              </_Builtin.Block>
             </_Builtin.Block>
           </_Builtin.Block>
           <_Builtin.Block
@@ -219,29 +237,35 @@ export function StacksComponent({ as: _Component = _Builtin.Block }) {
               "vertical",
               "center",
               "gap4px",
-              "padding20px",
+              "padding12px",
               "white",
               "round",
+              "_170x170",
               "clickable"
             )}
             id={_utils.cx(
               _styles,
-              "w-node-d4fbab89-5021-8983-c78f-99df239787c2-3567e886"
+              "w-node-adba78bd-b8ff-6164-1767-3373c6954938-3567e886"
             )}
             tag="div"
           >
             <_Builtin.Image
-              className={_utils.cx(_styles, "image")}
+              className={_utils.cx(_styles, "image", "_80")}
               loading="lazy"
               width="134"
               height="117.17241668701172"
               src="https://uploads-ssl.webflow.com/65474f5b3ac46dc4b33db7b7/65531b7f30cbff3ff0dd9293_image-1.png"
             />
             <_Builtin.Block
-              className={_utils.cx(_styles, "text12px", "medium")}
+              className={_utils.cx(_styles, "div-block-8")}
               tag="div"
             >
-              {"Macbook Air 13’’ (2020)"}
+              <_Builtin.Block
+                className={_utils.cx(_styles, "text14px", "medium", "nowrap")}
+                tag="div"
+              >
+                {"Macbook Air 13’’ (2020)"}
+              </_Builtin.Block>
             </_Builtin.Block>
           </_Builtin.Block>
         </_Builtin.Block>
