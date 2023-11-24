@@ -91,7 +91,8 @@ export function StacksComponent({ as: _Component = _Builtin.Block }) {
                 "button",
                 "white",
                 "gap8px",
-                "padding20px"
+                "padding20px",
+                "clickable"
               )}
               tag="div"
             >
@@ -124,7 +125,8 @@ export function StacksComponent({ as: _Component = _Builtin.Block }) {
               "gap4px",
               "padding20px",
               "white",
-              "round"
+              "round",
+              "clickable"
             )}
             id={_utils.cx(
               _styles,
@@ -155,11 +157,12 @@ export function StacksComponent({ as: _Component = _Builtin.Block }) {
               "gap4px",
               "padding20px",
               "white",
-              "round"
+              "round",
+              "clickable"
             )}
             id={_utils.cx(
               _styles,
-              "w-node-_13096c28-4d66-21b2-78fb-7ddc3567e89f-3567e886"
+              "w-node-_0b8ea749-f48b-4a3f-a4b8-f254f500a539-3567e886"
             )}
             tag="div"
           >
@@ -186,11 +189,12 @@ export function StacksComponent({ as: _Component = _Builtin.Block }) {
               "gap4px",
               "padding20px",
               "white",
-              "round"
+              "round",
+              "clickable"
             )}
             id={_utils.cx(
               _styles,
-              "w-node-_13096c28-4d66-21b2-78fb-7ddc3567e8a3-3567e886"
+              "w-node-_51834ba4-9274-4be7-1041-3db099bdaf39-3567e886"
             )}
             tag="div"
           >
@@ -217,11 +221,12 @@ export function StacksComponent({ as: _Component = _Builtin.Block }) {
               "gap4px",
               "padding20px",
               "white",
-              "round"
+              "round",
+              "clickable"
             )}
             id={_utils.cx(
               _styles,
-              "w-node-_13096c28-4d66-21b2-78fb-7ddc3567e8a7-3567e886"
+              "w-node-d4fbab89-5021-8983-c78f-99df239787c2-3567e886"
             )}
             tag="div"
           >

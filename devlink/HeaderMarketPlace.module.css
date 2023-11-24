@@ -112,6 +112,21 @@
   border-radius: 4px;
 }
 
+.container.vertical.center.gap4px.padding20px.white.round.clickable {
+  cursor: pointer;
+}
+
+.container.vertical.center.gap4px.padding20px.white.round.clickable:hover {
+  outline-color: var(--grey-100);
+  outline-offset: 0px;
+  outline-style: solid;
+  outline-width: 1px;
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
 .pageselector {
   display: flex;
   padding: 12px 20px;
