@@ -7,5 +7,7 @@ export * from "./utils";
 export * from "./devlink";
 export * from "./GridProducts";
 export * from "./HeaderMarketPlace";
+export * from "./MenuBurgerContainer";
 export * from "./MenuBurgerMarketPlace";
+export * from "./NavBar";
 export * from "./StacksComponent";

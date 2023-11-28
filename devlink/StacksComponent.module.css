@@ -15,6 +15,20 @@
   grid-row-gap: 16px;
 }
 
+.componentcontainer.navbar {
+  padding-right: 4px;
+  padding-left: 4px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .componentcontainer.navbar {
+    display: none;
+  }
+}
+
 .container {
   display: flex;
   align-items: stretch;
@@ -213,6 +227,12 @@
 
 .container._100 {
   width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .container.alignright {
+    justify-content: flex-end;
+  }
 }
 
 .stackcontainer {

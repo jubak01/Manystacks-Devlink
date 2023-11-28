@@ -231,6 +231,12 @@
   width: 100%;
 }
 
+@media screen and (max-width: 767px) {
+  .container.alignright {
+    justify-content: flex-end;
+  }
+}
+
 .pageselector {
   display: flex;
   padding: 12px 20px;
