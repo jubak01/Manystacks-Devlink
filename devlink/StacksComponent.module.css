@@ -527,6 +527,14 @@
   white-space: nowrap;
 }
 
+.text14px.medium.white {
+  color: var(--white);
+}
+
+.text14px.white {
+  color: var(--white);
+}
+
 @media screen and (max-width: 991px) {
   #w-node-_13096c28-4d66-21b2-78fb-7ddc3567e89b-3567e886 {
     grid-row-start: span 1;

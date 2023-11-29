@@ -308,6 +308,14 @@
   white-space: nowrap;
 }
 
+.text14px.medium.white {
+  color: var(--white);
+}
+
+.text14px.white {
+  color: var(--white);
+}
+
 .pageselector {
   display: flex;
   padding: 12px 20px;

@@ -360,6 +360,14 @@
   white-space: nowrap;
 }
 
+.text14px.medium.white {
+  color: var(--white);
+}
+
+.text14px.white {
+  color: var(--white);
+}
+
 .separatorhorizontal {
   border-bottom: 1px solid var(--grey-200);
 }

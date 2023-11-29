@@ -349,6 +349,14 @@
   white-space: nowrap;
 }
 
+.text14px.medium.white {
+  color: var(--white);
+}
+
+.text14px.white {
+  color: var(--white);
+}
+
 .image._80 {
   width: 80%;
   height: 80%;

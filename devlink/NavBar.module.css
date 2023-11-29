@@ -59,6 +59,8 @@
 }
 
 .navbarelementunselected {
+  position: relative;
+
   display: flex;
   width: 48px;
   height: 48px;
@@ -76,6 +78,104 @@
   min-height: 20px;
   min-width: 20px;
   object-fit: cover;
+}
+
+.navbarelementhover {
+  position: absolute;
+  left: 10px;
+  z-index: 1000;
+
+  display: none;
+  height: 48px;
+  min-height: 48px;
+  margin-left: 100%;
+  padding: 4px 16px;
+  align-items: center;
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+
+  border-radius: 8px;
+
+  background-color: var(--main);
+}
+
+.text14px {
+  color: var(--grey-900);
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.text14px.icontitle {
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+  .text14px.icontitle {
+    display: flex;
+    white-space: nowrap;
+    word-break: normal;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .text14px.icontitle {
+    display: none;
+  }
+}
+
+.text14px.icontitle.showalways {
+  display: block;
+}
+
+.text14px.grey300 {
+  color: var(--grey300);
+}
+
+.text14px.grey300.light {
+  font-weight: 300;
+}
+
+.text14px.grey300.light.hide {
+  display: none;
+}
+
+.text14px.grey400 {
+  color: var(--grey400);
+}
+
+.text14px.medium {
+  font-weight: 500;
+}
+
+.text14px.medium.purple {
+  color: var(--main);
+}
+
+.text14px.medium.purple.tag {
+  padding: 4px 12px;
+  border-radius: 1000px;
+  background-color: var(--lightpurple);
+}
+
+.text14px.medium.nowrap {
+  overflow: visible;
+  white-space: nowrap;
+}
+
+.text14px.medium.white {
+  color: var(--white);
+}
+
+.text14px.white {
+  color: var(--white);
+}
+
+.image12x12px {
+  width: 12px;
+  height: 12px;
+  min-height: 12px;
+  min-width: 12px;
 }
 
 .navbarelementselected {

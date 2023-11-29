@@ -358,6 +358,14 @@
   white-space: nowrap;
 }
 
+.text14px.medium.white {
+  color: var(--white);
+}
+
+.text14px.white {
+  color: var(--white);
+}
+
 .separatorvertical {
   width: 0.000004371140676084906px;
   height: 100%;

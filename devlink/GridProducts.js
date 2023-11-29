@@ -193,7 +193,7 @@ export function GridProducts({
               tag="div"
             >
               <_Builtin.Block
-                className={_utils.cx(_styles, "text16px", "medium")}
+                className={_utils.cx(_styles, "text16px", "medium", "nowrap")}
                 tag="div"
               >
                 {"Macbook Air 13’’ (2020)"}
