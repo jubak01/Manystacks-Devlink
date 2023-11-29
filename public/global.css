@@ -93,6 +93,10 @@
   overflow: visible;
 }
 
+.text14px.medium.white, .text14px.white {
+  color: var(--white);
+}
+
 .buttoncircle {
   width: auto;
   grid-column-gap: 12px;
@@ -695,6 +699,7 @@
   justify-content: center;
   align-items: center;
   display: flex;
+  position: relative;
 }
 
 .vectors-wrapper {
@@ -768,6 +773,62 @@
 
 .icon {
   object-fit: cover;
+}
+
+.navbarelementhover {
+  z-index: 1000;
+  height: 48px;
+  min-height: 48px;
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+  background-color: var(--main);
+  border-radius: 8px;
+  align-items: center;
+  margin-left: 100%;
+  padding: 4px 16px;
+  display: none;
+  position: absolute;
+  left: 10px;
+}
+
+.text-block-3 {
+  color: var(--white);
+}
+
+.arrow-up-right {
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  flex: 0 auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 7px;
+  display: flex;
+}
+
+.vectors-wrapper-2 {
+  width: 10px;
+  height: 10px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.arrow-up-right-2 {
+  width: 58px;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 7px;
+  display: flex;
+}
+
+.image12x12px {
+  width: 12px;
+  height: 12px;
+  min-height: 12px;
+  min-width: 12px;
 }
 
 @media screen and (min-width: 1440px) {
