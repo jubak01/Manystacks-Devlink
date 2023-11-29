@@ -831,6 +831,15 @@
   min-width: 12px;
 }
 
+.productimagecontainer {
+  width: 80%;
+  background-image: url('../images/image-1.png');
+  background-position: 50%;
+  background-size: contain;
+  padding-bottom: 80%;
+  overflow: hidden;
+}
+
 @media screen and (min-width: 1440px) {
   .text14px.icontitle {
     white-space: nowrap;

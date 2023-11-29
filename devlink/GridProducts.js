@@ -74,12 +74,9 @@ export function GridProducts({
                 {"Top produits"}
               </_Builtin.Block>
             </_Builtin.Block>
-            <_Builtin.Image
-              className={_utils.cx(_styles, "image", "_80")}
-              loading="lazy"
-              width="134"
-              height="117.17241668701172"
-              src="https://uploads-ssl.webflow.com/65474f5b3ac46dc4b33db7b7/65531b7f30cbff3ff0dd9293_image-1.png"
+            <_Builtin.Block
+              className={_utils.cx(_styles, "productimagecontainer")}
+              tag="div"
             />
             <_Builtin.Block
               className={_utils.cx(

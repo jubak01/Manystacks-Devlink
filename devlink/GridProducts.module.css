@@ -357,10 +357,14 @@
   color: var(--white);
 }
 
-.image._80 {
+.productimagecontainer {
+  overflow: hidden;
   width: 80%;
-  height: 80%;
-  object-fit: contain;
+  padding-bottom: 80%;
+
+  background-image: url("https://uploads-ssl.webflow.com/65474f5b3ac46dc4b33db7b7/65531b7f30cbff3ff0dd9293_image-1.png");
+  background-position: 50% 50%;
+  background-size: contain;
 }
 
 .text16px {
@@ -383,6 +387,12 @@
 
 .text-span-2 {
   font-weight: 600;
+}
+
+.image._80 {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
 }
 
 #w-node-_2996cc29-4451-7171-69e1-d35d642ec7fe-642ec7f9 {
