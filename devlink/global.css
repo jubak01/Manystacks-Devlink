@@ -2191,4 +2191,5 @@ textarea.w-select {
   --grey400: rgba(136, 150, 171, 1);
   --white: hsla(0, 0.00%, 100.00%, 1.00);
   --lightpurple: hsla(240, 100.00%, 71.96%, 0.10);
+  --black: hsla(0, 0.00%, 0.00%, 1.00);
 }
