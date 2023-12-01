@@ -15,6 +15,11 @@
   grid-row-gap: 16px;
 }
 
+.componentcontainer.directionvertical.gap20px {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
 .componentcontainer.navbar {
   padding-right: 4px;
   padding-left: 4px;
@@ -177,6 +182,19 @@
 
 .text14px.white {
   color: var(--white);
+}
+
+.text14px.unbounded {
+  font-family: Unbounded;
+  line-height: 140%;
+}
+
+.text14px.semibold {
+  font-weight: 600;
+}
+
+.text14px.purple {
+  color: var(--main);
 }
 
 .image12x12px {

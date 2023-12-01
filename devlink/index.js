@@ -11,5 +11,6 @@ export * from "./MenuBurgerContainer";
 export * from "./MenuBurgerMarketPlace";
 export * from "./NavBar";
 export * from "./NewProductComponent";
+export * from "./PriceProduct";
 export * from "./ProductMainSpecs";
 export * from "./StacksComponent";
