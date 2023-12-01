@@ -20,13 +20,19 @@ export function ProductMainSpecs({
         className={_utils.cx(
           _styles,
           "w_container",
-          "_100",
-          "justifyspacebetween"
+          "horizontalthenvertical",
+          "_100"
         )}
         tag="div"
       >
         <_Builtin.Block
-          className={_utils.cx(_styles, "w_container", "vertical", "gap12px")}
+          className={_utils.cx(
+            _styles,
+            "w_container",
+            "verticalthenhorizontal",
+            "gap12px",
+            "justifycenter"
+          )}
           tag="div"
         >
           <_Builtin.Block
@@ -153,7 +159,7 @@ export function ProductMainSpecs({
                 tag="div"
               >
                 <_Builtin.Block
-                  className={_utils.cx(_styles, "text-5")}
+                  className={_utils.cx(_styles, "text14px", "medium", "nowrap")}
                   tag="div"
                 >
                   {"16 Go"}
@@ -184,7 +190,13 @@ export function ProductMainSpecs({
                 tag="div"
               >
                 <_Builtin.Block
-                  className={_utils.cx(_styles, "", "text-5")}
+                  className={_utils.cx(
+                    _styles,
+                    "",
+                    "text14px",
+                    "medium",
+                    "nowrap"
+                  )}
                   tag="div"
                 >
                   {"512 Go"}
@@ -221,7 +233,7 @@ export function ProductMainSpecs({
                 tag="div"
               >
                 <_Builtin.Block
-                  className={_utils.cx(_styles, "text-5")}
+                  className={_utils.cx(_styles, "text14px", "medium", "nowrap")}
                   tag="div"
                 >
                   {"M1 Pro"}
@@ -251,7 +263,7 @@ export function ProductMainSpecs({
                 tag="div"
               >
                 <_Builtin.Block
-                  className={_utils.cx(_styles, "text-5")}
+                  className={_utils.cx(_styles, "text14px", "medium", "nowrap")}
                   tag="div"
                 >
                   {"14’’"}
@@ -281,7 +293,7 @@ export function ProductMainSpecs({
                 tag="div"
               >
                 <_Builtin.Block
-                  className={_utils.cx(_styles, "text-5")}
+                  className={_utils.cx(_styles, "text14px", "medium", "nowrap")}
                   tag="div"
                 >
                   {"GPU 14 coeurs"}
@@ -289,7 +301,7 @@ export function ProductMainSpecs({
               </_Builtin.Block>
             </_Builtin.Block>
             <_Builtin.Block
-              className={_utils.cx(_styles, "", "frame-96")}
+              className={_utils.cx(_styles, "", "w_container", "aligncenter")}
               tag="div"
             >
               <_Builtin.Block
@@ -298,14 +310,24 @@ export function ProductMainSpecs({
                   "",
                   "text14px",
                   "grey400",
-                  "_100"
+                  "_100",
+                  "nowrap"
                 )}
                 tag="div"
               >
                 {"Type de clavier"}
               </_Builtin.Block>
               <_Builtin.Block
-                className={_utils.cx(_styles, "frame-105")}
+                className={_utils.cx(
+                  _styles,
+                  "w_container",
+                  "justifyspacebetween",
+                  "_100",
+                  "height40px",
+                  "aligncenter",
+                  "padding12px",
+                  "backgroundgrey"
+                )}
                 tag="div"
               >
                 <_Builtin.Block
@@ -313,7 +335,8 @@ export function ProductMainSpecs({
                     _styles,
                     "w_container",
                     "aligncenter",
-                    "gap8px"
+                    "gap8px",
+                    "overflowhidden"
                   )}
                   tag="div"
                 >
@@ -325,7 +348,13 @@ export function ProductMainSpecs({
                     src="https://uploads-ssl.webflow.com/65474f5b3ac46dc4b33db7b7/656992654acd276b624a2326_image-17.png"
                   />
                   <_Builtin.Block
-                    className={_utils.cx(_styles, "", "text-5")}
+                    className={_utils.cx(
+                      _styles,
+                      "",
+                      "text14px",
+                      "medium",
+                      "nowrap"
+                    )}
                     tag="div"
                   >
                     {"Français - AZERTY"}
@@ -363,7 +392,7 @@ export function ProductMainSpecs({
                 tag="div"
               >
                 <_Builtin.Block
-                  className={_utils.cx(_styles, "text-5")}
+                  className={_utils.cx(_styles, "text14px", "medium", "nowrap")}
                   tag="div"
                 >
                   {"Neuf"}

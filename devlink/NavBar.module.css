@@ -148,6 +148,10 @@
   width: 100%;
 }
 
+.text14px.grey400._100.nowrap {
+  white-space: nowrap;
+}
+
 .text14px.medium {
   font-weight: 500;
 }
