@@ -144,6 +144,10 @@
   color: var(--grey400);
 }
 
+.text14px.grey400._100 {
+  width: 100%;
+}
+
 .text14px.medium {
   font-weight: 500;
 }

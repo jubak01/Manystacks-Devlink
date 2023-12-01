@@ -172,7 +172,7 @@ export function GridProducts({
               </_Builtin.Block>
             </_Builtin.Block>
             <_Builtin.Image
-              className={_utils.cx(_styles, "image", "_80")}
+              className={_utils.cx(_styles, "image100", "_80")}
               loading="lazy"
               width="134"
               height="117.17241668701172"
@@ -272,7 +272,7 @@ export function GridProducts({
               </_Builtin.Block>
             </_Builtin.Block>
             <_Builtin.Image
-              className={_utils.cx(_styles, "image", "_80")}
+              className={_utils.cx(_styles, "image100", "_80")}
               loading="lazy"
               width="134"
               height="117.17241668701172"
@@ -372,7 +372,7 @@ export function GridProducts({
               </_Builtin.Block>
             </_Builtin.Block>
             <_Builtin.Image
-              className={_utils.cx(_styles, "image", "_80")}
+              className={_utils.cx(_styles, "image100", "_80")}
               loading="lazy"
               width="134"
               height="117.17241668701172"
@@ -472,7 +472,7 @@ export function GridProducts({
               </_Builtin.Block>
             </_Builtin.Block>
             <_Builtin.Image
-              className={_utils.cx(_styles, "image", "_80")}
+              className={_utils.cx(_styles, "image100", "_80")}
               loading="lazy"
               width="134"
               height="117.17241668701172"
@@ -572,7 +572,7 @@ export function GridProducts({
               </_Builtin.Block>
             </_Builtin.Block>
             <_Builtin.Image
-              className={_utils.cx(_styles, "image", "_80")}
+              className={_utils.cx(_styles, "image100", "_80")}
               loading="lazy"
               width="134"
               height="117.17241668701172"
