@@ -8,6 +8,7 @@
   --main: #7070ff;
   --lightpurple: rgba(112, 112, 255, .1);
   --white: #fff;
+  --green: #0dd27a;
   --black: #000;
 }
 
@@ -36,9 +37,9 @@
   grid-row-gap: 16px;
 }
 
-.componentcontainer.directionvertical.gap20px {
-  grid-column-gap: 20px;
-  grid-row-gap: 20px;
+.componentcontainer.directionvertical.gap12px {
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
 }
 
 .componentcontainer.navbar {
@@ -114,6 +115,10 @@
 .text14px.unbounded {
   font-family: Unbounded, sans-serif;
   line-height: 140%;
+}
+
+.text14px.unbounded.green {
+  color: var(--green);
 }
 
 .text14px.semibold {
@@ -332,6 +337,11 @@
   padding: 20px;
 }
 
+.w_container.vertical.gap20px {
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
 .w_container._100 {
   width: 100%;
 }
@@ -353,6 +363,15 @@
   justify-content: center;
 }
 
+.w_container.aligncenter.gap4px {
+  grid-column-gap: 4px;
+  grid-row-gap: 4px;
+}
+
+.w_container.aligncenter.gap4px.clickable {
+  cursor: pointer;
+}
+
 .w_container.verticalthenhorizontal {
   flex-direction: column;
 }
@@ -364,6 +383,21 @@
 .w_container.alignend.gap4px {
   grid-column-gap: 4px;
   grid-row-gap: 4px;
+}
+
+.w_container.alignend.gap4px.co2 {
+  background-color: rgba(26, 209, 97, .1);
+  border-radius: 10000px;
+  padding: 4px 12px;
+}
+
+.w_container.alignstart {
+  align-items: flex-start;
+}
+
+.w_container.alignstart.gap12px {
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
 }
 
 .pageselector {
@@ -417,6 +451,10 @@
   min-height: 20px;
   min-width: 20px;
   object-fit: cover;
+}
+
+.image20x20px.clickable {
+  cursor: pointer;
 }
 
 .indicatornumber {
@@ -658,6 +696,7 @@
 
 .text16px {
   font-size: 16px;
+  line-height: 140%;
 }
 
 .text16px.medium {
@@ -672,6 +711,14 @@
   width: 100%;
   white-space: nowrap;
   overflow: hidden;
+}
+
+.text16px.unbounded {
+  font-family: Unbounded, sans-serif;
+}
+
+.text16px.unbounded.medium.green {
+  color: var(--green);
 }
 
 .div-block-8 {
@@ -857,6 +904,7 @@
 .vectors-wrapper-5 {
   width: 20px;
   height: 20px;
+  cursor: pointer;
   object-fit: cover;
   justify-content: center;
   align-items: center;
@@ -902,6 +950,7 @@
 
 .bigbutton {
   width: 100%;
+  cursor: pointer;
   background-color: #fff;
   border-radius: 12px;
   justify-content: center;
@@ -912,6 +961,7 @@
 
 .bigbutton.purple {
   background-color: var(--main);
+  cursor: pointer;
 }
 
 ._12490-mois-0 {
@@ -935,6 +985,14 @@
   height: 16px;
   min-height: 16px;
   min-width: 16px;
+}
+
+.image16x16px.margintop1px {
+  margin-top: 1px;
+}
+
+.text-span-3 {
+  font-weight: 600;
 }
 
 @media screen and (min-width: 1440px) {

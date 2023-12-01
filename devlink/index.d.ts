@@ -5,6 +5,7 @@ export * from "./devlinkContext";
 export * from "./interactions";
 export * from "./utils";
 export * from "./devlink";
+export * from "./Co2";
 export * from "./GridProducts";
 export * from "./HeaderMarketPlace";
 export * from "./MenuBurgerContainer";

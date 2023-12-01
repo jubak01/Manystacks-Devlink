@@ -20,6 +20,11 @@
   grid-row-gap: 20px;
 }
 
+.componentcontainer.directionvertical.gap12px {
+  grid-column-gap: 12px;
+  grid-row-gap: 12px;
+}
+
 .componentcontainer.navbar {
   padding-right: 4px;
   padding-left: 4px;
@@ -83,6 +88,10 @@
   min-height: 20px;
   min-width: 20px;
   object-fit: cover;
+}
+
+.image20x20px.clickable {
+  cursor: pointer;
 }
 
 .navbarelementhover {
@@ -185,6 +194,10 @@
   line-height: 140%;
 }
 
+.text14px.unbounded.green {
+  color: var(--green);
+}
+
 .text14px.semibold {
   font-weight: 600;
 }
@@ -239,6 +252,7 @@
 
 .text16px {
   font-size: 16px;
+  line-height: 140%;
 }
 
 .text16px.medium {
@@ -253,4 +267,12 @@
   overflow: hidden;
   width: 100%;
   white-space: nowrap;
+}
+
+.text16px.unbounded {
+  font-family: Unbounded;
+}
+
+.text16px.unbounded.medium.green {
+  color: var(--green);
 }
