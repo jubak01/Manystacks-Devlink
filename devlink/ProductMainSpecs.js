@@ -137,7 +137,12 @@ export function ProductMainSpecs({
             tag="div"
           >
             <_Builtin.Block
-              className={_utils.cx(_styles, "w_container", "aligncenter")}
+              className={_utils.cx(
+                _styles,
+                "w_container",
+                "aligncenter",
+                "verticalonphone"
+              )}
               tag="div"
             >
               <_Builtin.Block
@@ -167,7 +172,12 @@ export function ProductMainSpecs({
               </_Builtin.Block>
             </_Builtin.Block>
             <_Builtin.Block
-              className={_utils.cx(_styles, "w_container", "aligncenter")}
+              className={_utils.cx(
+                _styles,
+                "w_container",
+                "aligncenter",
+                "verticalonphone"
+              )}
               tag="div"
             >
               <_Builtin.Block
@@ -211,7 +221,12 @@ export function ProductMainSpecs({
               </_Builtin.Block>
             </_Builtin.Block>
             <_Builtin.Block
-              className={_utils.cx(_styles, "w_container", "aligncenter")}
+              className={_utils.cx(
+                _styles,
+                "w_container",
+                "aligncenter",
+                "verticalonphone"
+              )}
               tag="div"
             >
               <_Builtin.Block
@@ -241,7 +256,12 @@ export function ProductMainSpecs({
               </_Builtin.Block>
             </_Builtin.Block>
             <_Builtin.Block
-              className={_utils.cx(_styles, "w_container", "aligncenter")}
+              className={_utils.cx(
+                _styles,
+                "w_container",
+                "aligncenter",
+                "verticalonphone"
+              )}
               tag="div"
             >
               <_Builtin.Block
@@ -271,7 +291,12 @@ export function ProductMainSpecs({
               </_Builtin.Block>
             </_Builtin.Block>
             <_Builtin.Block
-              className={_utils.cx(_styles, "w_container", "aligncenter")}
+              className={_utils.cx(
+                _styles,
+                "w_container",
+                "aligncenter",
+                "verticalonphone"
+              )}
               tag="div"
             >
               <_Builtin.Block
@@ -301,7 +326,13 @@ export function ProductMainSpecs({
               </_Builtin.Block>
             </_Builtin.Block>
             <_Builtin.Block
-              className={_utils.cx(_styles, "", "w_container", "aligncenter")}
+              className={_utils.cx(
+                _styles,
+                "",
+                "w_container",
+                "aligncenter",
+                "verticalonphone"
+              )}
               tag="div"
             >
               <_Builtin.Block
@@ -370,7 +401,12 @@ export function ProductMainSpecs({
               </_Builtin.Block>
             </_Builtin.Block>
             <_Builtin.Block
-              className={_utils.cx(_styles, "w_container", "aligncenter")}
+              className={_utils.cx(
+                _styles,
+                "w_container",
+                "aligncenter",
+                "verticalonphone"
+              )}
               tag="div"
             >
               <_Builtin.Block

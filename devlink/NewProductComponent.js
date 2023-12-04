@@ -17,7 +17,10 @@ export function NewProductComponent({
   _interactions.useInteractions(_interactionsData, _styles);
 
   return (
-    <_Component className={_utils.cx(_styles, "componentcontainer")} tag="div">
+    <_Component
+      className={_utils.cx(_styles, "componentcontainer", "directionvertical")}
+      tag="div"
+    >
       <_Builtin.Block
         className={_utils.cx(_styles, "w_container", "vertical", "gap16px")}
         tag="div"

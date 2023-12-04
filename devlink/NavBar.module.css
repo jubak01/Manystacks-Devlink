@@ -34,6 +34,10 @@
   }
 }
 
+.componentcontainer.hide {
+  display: none;
+}
+
 .navbartopcontainer {
   display: flex;
   width: 100%;

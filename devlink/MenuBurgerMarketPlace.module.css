@@ -81,6 +81,7 @@
 }
 
 .w_container.vertical {
+  width: 100%;
   flex-direction: column;
 }
 
@@ -263,6 +264,14 @@
 
 .w_container.aligncenter.gap4px.clickable {
   cursor: pointer;
+}
+
+@media screen and (max-width: 479px) {
+  .w_container.aligncenter.verticalonphone {
+    flex-direction: column;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+  }
 }
 
 .w_container.verticalthenhorizontal {
