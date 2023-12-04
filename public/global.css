@@ -209,6 +209,7 @@
 }
 
 .w_container.vertical {
+  width: 100%;
   flex-direction: column;
 }
 
