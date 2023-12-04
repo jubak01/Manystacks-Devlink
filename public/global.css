@@ -50,6 +50,10 @@
   padding-right: 4px;
 }
 
+.componentcontainer.hide {
+  display: none;
+}
+
 .text14px {
   color: var(--grey-900);
   font-size: 14px;
@@ -687,12 +691,16 @@
   grid-column-gap: 16px;
   grid-row-gap: 16px;
   grid-template: "."
-  / 1fr 1fr 1fr 1fr 1fr;
+  / 1fr 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
   grid-auto-flow: row dense;
   justify-content: stretch;
   justify-items: stretch;
   display: grid;
+}
+
+.gridproducts.small {
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .text16px {
@@ -927,10 +935,11 @@
 
 .productpagegrid {
   grid-column-gap: 8px;
-  grid-row-gap: 8px;
-  grid-template-rows: auto;
-  grid-template-columns: 3fr 1fr;
+  grid-row-gap: 0px;
+  grid-template: "."
+  / 3fr 1fr;
   grid-auto-columns: 1fr;
+  grid-auto-flow: row dense;
   display: grid;
 }
 
@@ -1004,7 +1013,15 @@
   }
 
   .gridproducts {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .gridproducts.small {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .productpagegrid {
+    grid-template-rows: auto auto;
   }
 }
 
@@ -1059,6 +1076,10 @@
   .gridproducts {
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-flow: row dense;
+  }
+
+  .gridproducts.small {
+    grid-template-columns: 1fr 1fr;
   }
 
   .newproductinfo {
@@ -1162,6 +1183,12 @@
 }
 
 @media screen and (max-width: 479px) {
+  .w_container.aligncenter.verticalonphone {
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    flex-direction: column;
+  }
+
   .stackcontainer {
     padding: 20px;
   }
@@ -1181,12 +1208,12 @@
     font-size: 28px;
   }
 
-  .gridproducts {
+  .gridproducts, .gridproducts.small {
     grid-template-columns: 1fr;
   }
 }
 
-#w-node-_2996cc29-4451-7171-69e1-d35d642ec7fe-642ec7f9, #w-node-_2996cc29-4451-7171-69e1-d35d642ec80f-642ec7f9, #w-node-_2996cc29-4451-7171-69e1-d35d642ec820-642ec7f9, #w-node-_2996cc29-4451-7171-69e1-d35d642ec831-642ec7f9, #w-node-_2996cc29-4451-7171-69e1-d35d642ec842-642ec7f9, #w-node-_2996cc29-4451-7171-69e1-d35d642ec853-642ec7f9, #w-node-c4708148-fd67-2da7-90f3-4cc3ee04f831-b8c5a45b, #w-node-_0d3945de-bcd5-c6dd-3fb0-ed0d587742c0-b8c5a45b {
+#w-node-_2996cc29-4451-7171-69e1-d35d642ec7fe-642ec7f9, #w-node-_2996cc29-4451-7171-69e1-d35d642ec80f-642ec7f9, #w-node-_2996cc29-4451-7171-69e1-d35d642ec820-642ec7f9, #w-node-_2996cc29-4451-7171-69e1-d35d642ec831-642ec7f9, #w-node-_2996cc29-4451-7171-69e1-d35d642ec842-642ec7f9, #w-node-_2996cc29-4451-7171-69e1-d35d642ec853-642ec7f9, #w-node-c4708148-fd67-2da7-90f3-4cc3ee04f831-b8c5a45b, #w-node-_683d9091-9ccd-60d6-7732-f892d978b33a-b8c5a45b, #w-node-_683d9091-9ccd-60d6-7732-f892d978b34b-b8c5a45b, #w-node-_683d9091-9ccd-60d6-7732-f892d978b35c-b8c5a45b, #w-node-_683d9091-9ccd-60d6-7732-f892d978b36d-b8c5a45b, #w-node-_683d9091-9ccd-60d6-7732-f892d978b37e-b8c5a45b, #w-node-_683d9091-9ccd-60d6-7732-f892d978b38f-b8c5a45b, #w-node-_0d3945de-bcd5-c6dd-3fb0-ed0d587742c0-b8c5a45b, #w-node-bd35a351-46c4-7f12-3618-1198ee58bba6-b8c5a45b, #w-node-bd35a351-46c4-7f12-3618-1198ee58bbb7-b8c5a45b, #w-node-bd35a351-46c4-7f12-3618-1198ee58bbc8-b8c5a45b, #w-node-bd35a351-46c4-7f12-3618-1198ee58bbd9-b8c5a45b, #w-node-bd35a351-46c4-7f12-3618-1198ee58bbea-b8c5a45b, #w-node-bd35a351-46c4-7f12-3618-1198ee58bbfb-b8c5a45b {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
