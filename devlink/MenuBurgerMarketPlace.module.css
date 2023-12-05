@@ -32,6 +32,7 @@
 }
 
 .w_container {
+  position: relative;
   display: flex;
   align-items: stretch;
   flex: 0 auto;
@@ -318,6 +319,34 @@
 .w_container.alignstart.gap12px {
   grid-column-gap: 12px;
   grid-row-gap: 12px;
+}
+
+.w_container.popuphover {
+  position: absolute;
+  display: none;
+  padding: 4px 8px;
+  border-radius: 8px;
+  background-color: var(--white);
+}
+
+.w_container.popuphover.catalogue {
+  right: -20px;
+  bottom: 40px;
+}
+
+.w_container.announce {
+  position: absolute;
+  top: 4px;
+  right: -300px;
+
+  padding: 8px 12px;
+  align-items: center;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+
+  border-radius: 8px;
+
+  background-color: var(--main);
 }
 
 .pageselector {

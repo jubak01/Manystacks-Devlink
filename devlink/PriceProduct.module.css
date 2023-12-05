@@ -39,6 +39,7 @@
 }
 
 .w_container {
+  position: relative;
   display: flex;
   align-items: stretch;
   flex: 0 auto;
@@ -327,6 +328,34 @@
   grid-row-gap: 12px;
 }
 
+.w_container.popuphover {
+  position: absolute;
+  display: none;
+  padding: 4px 8px;
+  border-radius: 8px;
+  background-color: var(--white);
+}
+
+.w_container.popuphover.catalogue {
+  right: -20px;
+  bottom: 40px;
+}
+
+.w_container.announce {
+  position: absolute;
+  top: 4px;
+  right: -300px;
+
+  padding: 8px 12px;
+  align-items: center;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+
+  border-radius: 8px;
+
+  background-color: var(--main);
+}
+
 .text24px {
   font-size: 24px;
 }
@@ -463,6 +492,20 @@
 
 .image20x20px.clickable {
   cursor: pointer;
+}
+
+.text13px {
+  color: var(--grey-900);
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.text13px.white {
+  color: var(--white);
+}
+
+.text13px.grey600 {
+  color: var(--grey600);
 }
 
 .inputquantity {

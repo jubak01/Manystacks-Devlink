@@ -39,6 +39,7 @@
 }
 
 .w_container {
+  position: relative;
   display: flex;
   align-items: stretch;
   flex: 0 auto;
@@ -327,6 +328,34 @@
   grid-row-gap: 12px;
 }
 
+.w_container.popuphover {
+  position: absolute;
+  display: none;
+  padding: 4px 8px;
+  border-radius: 8px;
+  background-color: var(--white);
+}
+
+.w_container.popuphover.catalogue {
+  right: -20px;
+  bottom: 40px;
+}
+
+.w_container.announce {
+  position: absolute;
+  top: 4px;
+  right: -300px;
+
+  padding: 8px 12px;
+  align-items: center;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+
+  border-radius: 8px;
+
+  background-color: var(--main);
+}
+
 .text20px {
   font-family: Poppins, sans-serif;
   color: rgba(0, 0, 0, 1);
@@ -364,6 +393,7 @@
 
 .newproductimage {
   width: 100%;
+  height: 100%;
   border-radius: 8px;
   object-fit: cover;
 }

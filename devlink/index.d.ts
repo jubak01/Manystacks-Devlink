@@ -5,6 +5,7 @@ export * from "./devlinkContext";
 export * from "./interactions";
 export * from "./utils";
 export * from "./devlink";
+export * from "./Announcer";
 export * from "./Co2";
 export * from "./GridProducts";
 export * from "./GridProductsSmall";
