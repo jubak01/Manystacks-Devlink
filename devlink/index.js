@@ -18,4 +18,6 @@ export * from "./NavBar";
 export * from "./NewProductComponent";
 export * from "./PriceProduct";
 export * from "./ProductMainSpecs";
+export * from "./StackProduct";
 export * from "./StacksComponent";
+export * from "./StackSideBar";

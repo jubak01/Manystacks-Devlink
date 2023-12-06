@@ -23,6 +23,16 @@
   margin-left: 12px;
 }
 
+.w_container.gap12px.justifycenter {
+  justify-content: center;
+}
+
+@media screen and (min-width: 1920px) {
+  .w_container.gap12px.justifycenter {
+    flex-direction: column;
+  }
+}
+
 .w_container.justifyspacebetween {
   justify-content: space-between;
 }
@@ -51,6 +61,8 @@
 .w_container.vertical {
   width: 100%;
   flex-direction: column;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
 }
 
 .w_container.vertical.alignend {
@@ -172,6 +184,12 @@
   outline-width: 1px;
 }
 
+@media screen and (min-width: 1920px) {
+  .w_container.vertical._100 {
+    flex-direction: row;
+  }
+}
+
 .w_container.vertical.alignleft {
   align-items: flex-start;
 }
@@ -196,6 +214,33 @@
 .w_container.vertical.gap20px {
   grid-column-gap: 20px;
   grid-row-gap: 20px;
+}
+
+.w_container.vertical.nogap {
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.w_container.vertical.nogap.colorside {
+  border-right: 4px solid var(--orange);
+}
+
+.w_container.vertical.gap4px {
+  grid-column-gap: 4px;
+  grid-row-gap: 4px;
+}
+
+.w_container.vertical.gap2px {
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+}
+
+.w_container.vertical.height100 {
+  height: 100%;
+}
+
+@media screen and (min-width: 1920px) {
+
 }
 
 .w_container._100 {
@@ -237,6 +282,20 @@
 @media screen and (max-width: 479px) {
   .w_container.aligncenter.verticalonphone {
     flex-direction: column;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+  }
+}
+
+.w_container.aligncenter.verticalonphone.stack {
+  flex-direction: row;
+}
+
+@media screen and (max-width: 991px) {
+  .w_container.aligncenter.verticalonphone.stack {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     grid-column-gap: 8px;
     grid-row-gap: 8px;
   }
@@ -314,6 +373,35 @@
   border-radius: 8px;
 
   background-color: var(--main);
+}
+
+.w_container._80x80 {
+  width: 80px;
+  height: 80px;
+  min-height: 80px;
+  min-width: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+.w_container._80x80.grey {
+  border-radius: 8px;
+  background-color: var(--grey-50);
+}
+
+.w_container.gap16px {
+  align-items: center;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+}
+
+.w_container.gap16px.padding8px {
+  padding: 8px;
+}
+
+.w_container.gap16px.padding8px.white {
+  border-radius: 8px;
+  background-color: var(--white);
 }
 
 .image16x16px {

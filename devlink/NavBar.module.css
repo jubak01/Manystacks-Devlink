@@ -38,6 +38,10 @@
   display: none;
 }
 
+.componentcontainer.height100 {
+  height: 100%;
+}
+
 .navbartopcontainer {
   display: flex;
   width: 100%;
@@ -256,6 +260,7 @@
 }
 
 .text16px.medium {
+  color: var(--grey-900);
   font-weight: 500;
 }
 
