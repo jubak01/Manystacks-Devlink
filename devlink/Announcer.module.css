@@ -406,6 +406,7 @@
 .text14px.unbounded {
   font-family: Unbounded;
   line-height: 140%;
+  font-weight: 400;
 }
 
 .text14px.unbounded.green {

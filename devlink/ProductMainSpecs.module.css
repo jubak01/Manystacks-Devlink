@@ -409,6 +409,14 @@
   background-repeat: no-repeat;
 }
 
+.productimagecontainer.absolute {
+  position: absolute;
+  left: auto;
+  top: 0px;
+  right: auto;
+  bottom: 0px;
+}
+
 .text24px {
   font-size: 24px;
 }
@@ -501,6 +509,7 @@
 .text14px.unbounded {
   font-family: Unbounded;
   line-height: 140%;
+  font-weight: 400;
 }
 
 .text14px.unbounded.green {
