@@ -254,6 +254,12 @@
   }
 }
 
+@media screen and (min-width: 1920px) {
+  .w_container.vertical.alignleft._100.gap24px {
+    flex-direction: column;
+  }
+}
+
 .w_container.vertical.gap24px {
   grid-column-gap: 24px;
   grid-row-gap: 24px;
@@ -322,6 +328,10 @@
   height: 356px;
   max-height: 356px;
   min-height: 356px;
+}
+
+.w_container.vertical.aligncenter.gap12px.empty {
+  max-width: 640px;
 }
 
 .w_container._100 {
@@ -703,6 +713,10 @@
 
 .text14px.nowrap {
   white-space: nowrap;
+}
+
+.text14px.aligncenter {
+  text-align: center;
 }
 
 .vectors-wrapper-5 {

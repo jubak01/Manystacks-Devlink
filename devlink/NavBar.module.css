@@ -214,6 +214,10 @@
   white-space: nowrap;
 }
 
+.text14px.aligncenter {
+  text-align: center;
+}
+
 .image12x12px {
   width: 12px;
   height: 12px;
