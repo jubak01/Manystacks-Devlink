@@ -11,6 +11,7 @@ export * from "./BasketComponent";
 export * from "./BasketPrice";
 export * from "./BasketReco";
 export * from "./Co2";
+export * from "./FilterSideBar";
 export * from "./GridProducts";
 export * from "./GridProductsSmall";
 export * from "./HeaderMarketPlace";
