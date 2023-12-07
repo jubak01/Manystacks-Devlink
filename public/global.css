@@ -1219,6 +1219,13 @@
   overflow: hidden;
 }
 
+.stackunitcontainer:hover {
+  outline-color: var(--grey-200);
+  outline-offset: -1px;
+  outline-width: 1px;
+  outline-style: solid;
+}
+
 .stackimagegrid {
   width: 100%;
   grid-column-gap: 8px;
@@ -1534,6 +1541,37 @@
   border-radius: 100000px;
 }
 
+.frame-39 {
+  height: 433.534px;
+  grid-column-gap: 23.8356px;
+  grid-row-gap: 23.8356px;
+  background-color: #fff;
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 23.8356px;
+  display: flex;
+}
+
+.vectors-wrapper {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.text {
+  color: #000;
+  text-align: center;
+  font-family: Unbounded, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 100%;
+}
+
 @media screen and (min-width: 1440px) {
   .text14px.icontitle {
     white-space: nowrap;
@@ -1588,7 +1626,7 @@
     flex-direction: row;
   }
 
-  .w_container.vertical.alignleft._100.gap4px {
+  .w_container.vertical.alignleft._100.gap4px, .w_container.vertical.alignleft._100.gap24px {
     flex-direction: column;
   }
 

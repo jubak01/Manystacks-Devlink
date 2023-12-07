@@ -628,6 +628,31 @@ export function AllStacksComponent({
               </_Builtin.Block>
             </_Builtin.Block>
           </_Builtin.Block>
+          <_Builtin.Block
+            className={_utils.cx(_styles, "stackunitcontainer")}
+            tag="div"
+          >
+            <_Builtin.Block
+              className={_utils.cx(
+                _styles,
+                "w_container",
+                "vertical",
+                "aligncenter"
+              )}
+              tag="div"
+            >
+              <_Builtin.Image
+                className={_utils.cx(_styles, "image24x24px")}
+                loading="lazy"
+                width="24"
+                height="24"
+                src="https://uploads-ssl.webflow.com/65474f5b3ac46dc4b33db7b7/65719b02675146e2a3e327e4_Vectors-Wrapper.svg"
+              />
+              <_Builtin.Block className={_utils.cx(_styles, "text")} tag="div">
+                {"Créer une stack"}
+              </_Builtin.Block>
+            </_Builtin.Block>
+          </_Builtin.Block>
         </_Builtin.Block>
       </_Builtin.Block>
     </_Component>
