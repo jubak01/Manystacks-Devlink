@@ -518,6 +518,20 @@
   border-radius: 8px;
 }
 
+.w_container.gap16px.padding8px.white.hover {
+  outline-color: var(--grey-200);
+  outline-offset: 0px;
+  outline-width: 1px;
+  outline-style: solid;
+}
+
+.w_container.gap16px.padding8px.white.selected {
+  outline-color: var(--main);
+  outline-offset: 0px;
+  outline-width: 2px;
+  outline-style: solid;
+}
+
 .w_container.articlelength {
   width: 120px;
   justify-content: center;
@@ -944,6 +958,13 @@
 
 .menuburgercontainer {
   display: none;
+}
+
+.image28x28px {
+  width: 28px;
+  height: 28px;
+  min-height: 28px;
+  min-width: 28px;
 }
 
 .navbarelementhover {
@@ -1513,6 +1534,26 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  display: flex;
+}
+
+.deletestack {
+  height: 100%;
+  background-color: #ef5944;
+  border-radius: 5.71429px;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 12px;
+  padding-right: 12px;
+  display: flex;
+}
+
+.vectors-wrapper-6 {
+  width: 28.2856px;
+  height: 28.2856px;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
   display: flex;
 }
 

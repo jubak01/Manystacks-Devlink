@@ -434,6 +434,20 @@
   background-color: var(--white);
 }
 
+.w_container.gap16px.padding8px.white.hover {
+  outline-color: var(--grey-200);
+  outline-offset: 0px;
+  outline-style: solid;
+  outline-width: 1px;
+}
+
+.w_container.gap16px.padding8px.white.selected {
+  outline-color: var(--main);
+  outline-offset: 0px;
+  outline-style: solid;
+  outline-width: 2px;
+}
+
 .w_container.articlelength {
   width: 120px;
   justify-content: center;

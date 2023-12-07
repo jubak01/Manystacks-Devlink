@@ -97,47 +97,70 @@ export function StackSideBar({
             tag="div"
           >
             <_Builtin.Block
-              className={_utils.cx(
-                _styles,
-                "w_container",
-                "gap16px",
-                "padding8px",
-                "white"
-              )}
+              className={_utils.cx(_styles, "w_container", "gap8px")}
               tag="div"
             >
               <_Builtin.Block
-                className={_utils.cx(_styles, "w_container", "_80x80", "grey")}
-                tag="div"
-              >
-                <_Builtin.Block
-                  className={_utils.cx(_styles, "productimagecontainer")}
-                  tag="div"
-                />
-              </_Builtin.Block>
-              <_Builtin.Block
                 className={_utils.cx(
                   _styles,
-                  "",
                   "w_container",
-                  "vertical",
-                  "gap2px",
-                  "overflowhidden"
+                  "gap16px",
+                  "padding8px",
+                  "white",
+                  "hover"
                 )}
                 tag="div"
               >
                 <_Builtin.Block
-                  className={_utils.cx(_styles, "text14px", "medium")}
+                  className={_utils.cx(
+                    _styles,
+                    "w_container",
+                    "_80x80",
+                    "grey"
+                  )}
                   tag="div"
                 >
-                  {"Macbook Air 13’’ (2020)"}
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "productimagecontainer")}
+                    tag="div"
+                  />
                 </_Builtin.Block>
                 <_Builtin.Block
-                  className={_utils.cx(_styles, "", "text14px", "nowrap")}
+                  className={_utils.cx(
+                    _styles,
+                    "",
+                    "w_container",
+                    "vertical",
+                    "gap2px",
+                    "overflowhidden"
+                  )}
                   tag="div"
                 >
-                  {"Retina - Apple M1 - SSD 256 Go"}
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "text14px", "medium")}
+                    tag="div"
+                  >
+                    {"Macbook Air 13’’ (2020)"}
+                  </_Builtin.Block>
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "", "text14px", "nowrap")}
+                    tag="div"
+                  >
+                    {"Retina - Apple M1 - SSD 256 Go"}
+                  </_Builtin.Block>
                 </_Builtin.Block>
+              </_Builtin.Block>
+              <_Builtin.Block
+                className={_utils.cx(_styles, "deletestack")}
+                tag="div"
+              >
+                <_Builtin.Image
+                  className={_utils.cx(_styles, "image20x20px")}
+                  loading="lazy"
+                  width="28.28564453125"
+                  height="28.28564453125"
+                  src="https://uploads-ssl.webflow.com/65474f5b3ac46dc4b33db7b7/65718b9aea22de73aa4e8f78_Vectors-Wrapper.svg"
+                />
               </_Builtin.Block>
             </_Builtin.Block>
             <_Builtin.Block
@@ -146,7 +169,8 @@ export function StackSideBar({
                 "w_container",
                 "gap16px",
                 "padding8px",
-                "white"
+                "white",
+                "selected"
               )}
               tag="div"
             >
