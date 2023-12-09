@@ -15,53 +15,617 @@ export function AllStacksComponent({
   _interactions.useInteractions(_interactionsData, _styles);
 
   return (
-    <_Component
-      className={_utils.cx(_styles, "componentcontainer", "height100")}
-      tag="div"
-    >
+    <_Component className={_utils.cx(_styles, "componentcontainer")} tag="div">
       <_Builtin.Block
-        className={_utils.cx(_styles, "w_container", "vertical")}
+        className={_utils.cx(
+          _styles,
+          "w_container",
+          "vertical",
+          "alignleft",
+          "_100",
+          "gap24px"
+        )}
         tag="div"
       >
         <_Builtin.Block
-          className={_utils.cx(
-            _styles,
-            "w_container",
-            "vertical",
-            "aligncenter",
-            "gap12px"
-          )}
+          className={_utils.cx(_styles, "text20px", "unbounded")}
           tag="div"
         >
-          <_Builtin.Block className={_utils.cx(_styles, "text-15")} tag="div">
-            {"Votre panier Manystacks est vide."}
-          </_Builtin.Block>
-          <_Builtin.Block className={_utils.cx(_styles, "frame-34")} tag="div">
+          {"Votre collection de stacks"}
+        </_Builtin.Block>
+        <_Builtin.Block className={_utils.cx(_styles, "stacksgrid")} tag="div">
+          <_Builtin.Block
+            className={_utils.cx(_styles, "stackunitcontainer-2")}
+            tag="div"
+          >
             <_Builtin.Block
-              className={_utils.cx(_styles, "text14px")}
-              tag="div"
-            >
-              {
-                "Ajouter des articles à votre panier pour pouvoir passer commande."
-              }
-            </_Builtin.Block>
-            <_Builtin.Block
-              className={_utils.cx(_styles, "frame-90")}
+              className={_utils.cx(
+                _styles,
+                "w_container",
+                "vertical",
+                "gap24px"
+              )}
               tag="div"
             >
               <_Builtin.Block
-                className={_utils.cx(_styles, "text-17")}
+                className={_utils.cx(_styles, "stackimagegrid")}
                 tag="div"
               >
-                {"Aller au catalogue"}
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "stackimage-2")}
+                  tag="div"
+                >
+                  <_Builtin.Block
+                    className={_utils.cx(
+                      _styles,
+                      "productimagecontainer",
+                      "absolute"
+                    )}
+                    tag="div"
+                  />
+                </_Builtin.Block>
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "stackimage-2")}
+                  tag="div"
+                >
+                  <_Builtin.Block
+                    className={_utils.cx(
+                      _styles,
+                      "productimagecontainer",
+                      "absolute"
+                    )}
+                    tag="div"
+                  />
+                </_Builtin.Block>
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "stackimage-2")}
+                  tag="div"
+                >
+                  <_Builtin.Block
+                    className={_utils.cx(
+                      _styles,
+                      "productimagecontainer",
+                      "absolute"
+                    )}
+                    tag="div"
+                  />
+                </_Builtin.Block>
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "stackimage-2")}
+                  tag="div"
+                />
               </_Builtin.Block>
-              <_Builtin.Image
-                className={_utils.cx(_styles, "vectors-wrapper-6")}
-                loading="lazy"
-                width="16"
-                height="16"
-                src="https://uploads-ssl.webflow.com/65474f5b3ac46dc4b33db7b7/6569a3a4071ce91d020f5319_Vectors-Wrapper.svg"
-              />
+              <_Builtin.Block
+                className={_utils.cx(_styles, "stacktitlecontainer-2")}
+                tag="div"
+              >
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "w_container", "vertical")}
+                  tag="div"
+                >
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "text20px", "unbounded")}
+                    tag="div"
+                  >
+                    {"Bizdev de génie"}
+                  </_Builtin.Block>
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "text16px")}
+                    tag="div"
+                  >
+                    {"3 appareils"}
+                  </_Builtin.Block>
+                </_Builtin.Block>
+                <_Builtin.Block
+                  className={_utils.cx(
+                    _styles,
+                    "w_container",
+                    "alignend",
+                    "gap4px"
+                  )}
+                  tag="div"
+                >
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "text16px", "unbounded")}
+                    tag="div"
+                  >
+                    <_Builtin.Strong>{"74,90 €"}</_Builtin.Strong>
+                    {""}
+                  </_Builtin.Block>
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "text14px-2", "unbounded")}
+                    tag="div"
+                  >
+                    {"/mois"}
+                  </_Builtin.Block>
+                </_Builtin.Block>
+              </_Builtin.Block>
+            </_Builtin.Block>
+          </_Builtin.Block>
+          <_Builtin.Block
+            className={_utils.cx(_styles, "stackunitcontainer-2")}
+            tag="div"
+          >
+            <_Builtin.Block
+              className={_utils.cx(
+                _styles,
+                "w_container",
+                "vertical",
+                "gap24px"
+              )}
+              tag="div"
+            >
+              <_Builtin.Block
+                className={_utils.cx(_styles, "stackimagegrid")}
+                tag="div"
+              >
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "stackimage-2")}
+                  tag="div"
+                />
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "stackimage-2")}
+                  tag="div"
+                />
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "stackimage-2")}
+                  tag="div"
+                />
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "stackimage-2")}
+                  tag="div"
+                />
+              </_Builtin.Block>
+              <_Builtin.Block
+                className={_utils.cx(_styles, "stacktitlecontainer-2")}
+                tag="div"
+              >
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "w_container", "vertical")}
+                  tag="div"
+                >
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "text20px", "unbounded")}
+                    tag="div"
+                  >
+                    {"Bizdev de génie"}
+                  </_Builtin.Block>
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "text16px")}
+                    tag="div"
+                  >
+                    {"3 appareils"}
+                  </_Builtin.Block>
+                </_Builtin.Block>
+                <_Builtin.Block
+                  className={_utils.cx(
+                    _styles,
+                    "w_container",
+                    "alignend",
+                    "gap4px"
+                  )}
+                  tag="div"
+                >
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "text16px", "unbounded")}
+                    tag="div"
+                  >
+                    <_Builtin.Strong>{"74,90 €"}</_Builtin.Strong>
+                    {""}
+                  </_Builtin.Block>
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "text14px-2", "unbounded")}
+                    tag="div"
+                  >
+                    {"/mois"}
+                  </_Builtin.Block>
+                </_Builtin.Block>
+              </_Builtin.Block>
+            </_Builtin.Block>
+          </_Builtin.Block>
+          <_Builtin.Block
+            className={_utils.cx(_styles, "stackunitcontainer-2")}
+            tag="div"
+          >
+            <_Builtin.Block
+              className={_utils.cx(
+                _styles,
+                "w_container",
+                "vertical",
+                "gap24px"
+              )}
+              tag="div"
+            >
+              <_Builtin.Block
+                className={_utils.cx(_styles, "stackimagegrid")}
+                tag="div"
+              >
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "stackimage-2")}
+                  tag="div"
+                />
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "stackimage-2")}
+                  tag="div"
+                />
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "stackimage-2")}
+                  tag="div"
+                />
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "stackimage-2")}
+                  tag="div"
+                />
+              </_Builtin.Block>
+              <_Builtin.Block
+                className={_utils.cx(_styles, "stacktitlecontainer-2")}
+                tag="div"
+              >
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "w_container", "vertical")}
+                  tag="div"
+                >
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "text20px", "unbounded")}
+                    tag="div"
+                  >
+                    {"Bizdev de génie"}
+                  </_Builtin.Block>
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "text16px")}
+                    tag="div"
+                  >
+                    {"3 appareils"}
+                  </_Builtin.Block>
+                </_Builtin.Block>
+                <_Builtin.Block
+                  className={_utils.cx(
+                    _styles,
+                    "w_container",
+                    "alignend",
+                    "gap4px"
+                  )}
+                  tag="div"
+                >
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "text16px", "unbounded")}
+                    tag="div"
+                  >
+                    <_Builtin.Strong>{"74,90 €"}</_Builtin.Strong>
+                    {""}
+                  </_Builtin.Block>
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "text14px-2", "unbounded")}
+                    tag="div"
+                  >
+                    {"/mois"}
+                  </_Builtin.Block>
+                </_Builtin.Block>
+              </_Builtin.Block>
+            </_Builtin.Block>
+          </_Builtin.Block>
+          <_Builtin.Block
+            className={_utils.cx(_styles, "stackunitcontainer-2")}
+            tag="div"
+          >
+            <_Builtin.Block
+              className={_utils.cx(
+                _styles,
+                "w_container",
+                "vertical",
+                "gap24px"
+              )}
+              tag="div"
+            >
+              <_Builtin.Block
+                className={_utils.cx(_styles, "stackimagegrid")}
+                tag="div"
+              >
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "stackimage-2")}
+                  tag="div"
+                />
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "stackimage-2")}
+                  tag="div"
+                />
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "stackimage-2")}
+                  tag="div"
+                />
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "stackimage-2")}
+                  tag="div"
+                />
+              </_Builtin.Block>
+              <_Builtin.Block
+                className={_utils.cx(_styles, "stacktitlecontainer-2")}
+                tag="div"
+              >
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "w_container", "vertical")}
+                  tag="div"
+                >
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "text20px", "unbounded")}
+                    tag="div"
+                  >
+                    {"Bizdev de génie"}
+                  </_Builtin.Block>
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "text16px")}
+                    tag="div"
+                  >
+                    {"3 appareils"}
+                  </_Builtin.Block>
+                </_Builtin.Block>
+                <_Builtin.Block
+                  className={_utils.cx(
+                    _styles,
+                    "w_container",
+                    "alignend",
+                    "gap4px"
+                  )}
+                  tag="div"
+                >
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "text16px", "unbounded")}
+                    tag="div"
+                  >
+                    <_Builtin.Strong>{"74,90 €"}</_Builtin.Strong>
+                    {""}
+                  </_Builtin.Block>
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "text14px-2", "unbounded")}
+                    tag="div"
+                  >
+                    {"/mois"}
+                  </_Builtin.Block>
+                </_Builtin.Block>
+              </_Builtin.Block>
+            </_Builtin.Block>
+          </_Builtin.Block>
+          <_Builtin.Block
+            className={_utils.cx(_styles, "stackunitcontainer-2")}
+            tag="div"
+          >
+            <_Builtin.Block
+              className={_utils.cx(
+                _styles,
+                "w_container",
+                "vertical",
+                "gap24px"
+              )}
+              tag="div"
+            >
+              <_Builtin.Block
+                className={_utils.cx(_styles, "stackimagegrid")}
+                tag="div"
+              >
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "stackimage-2")}
+                  tag="div"
+                />
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "stackimage-2")}
+                  tag="div"
+                />
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "stackimage-2")}
+                  tag="div"
+                />
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "stackimage-2")}
+                  tag="div"
+                />
+              </_Builtin.Block>
+              <_Builtin.Block
+                className={_utils.cx(_styles, "stacktitlecontainer-2")}
+                tag="div"
+              >
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "w_container", "vertical")}
+                  tag="div"
+                >
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "text20px", "unbounded")}
+                    tag="div"
+                  >
+                    {"Bizdev de génie"}
+                  </_Builtin.Block>
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "text16px")}
+                    tag="div"
+                  >
+                    {"3 appareils"}
+                  </_Builtin.Block>
+                </_Builtin.Block>
+                <_Builtin.Block
+                  className={_utils.cx(
+                    _styles,
+                    "w_container",
+                    "alignend",
+                    "gap4px"
+                  )}
+                  tag="div"
+                >
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "text16px", "unbounded")}
+                    tag="div"
+                  >
+                    <_Builtin.Strong>{"74,90 €"}</_Builtin.Strong>
+                    {""}
+                  </_Builtin.Block>
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "text14px-2", "unbounded")}
+                    tag="div"
+                  >
+                    {"/mois"}
+                  </_Builtin.Block>
+                </_Builtin.Block>
+              </_Builtin.Block>
+            </_Builtin.Block>
+          </_Builtin.Block>
+          <_Builtin.Block
+            className={_utils.cx(_styles, "stackunitcontainer-2")}
+            tag="div"
+          >
+            <_Builtin.Block
+              className={_utils.cx(
+                _styles,
+                "w_container",
+                "vertical",
+                "gap24px"
+              )}
+              tag="div"
+            >
+              <_Builtin.Block
+                className={_utils.cx(_styles, "stackimagegrid")}
+                tag="div"
+              >
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "stackimage-2")}
+                  tag="div"
+                />
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "stackimage-2")}
+                  tag="div"
+                />
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "stackimage-2")}
+                  tag="div"
+                />
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "stackimage-2")}
+                  tag="div"
+                />
+              </_Builtin.Block>
+              <_Builtin.Block
+                className={_utils.cx(_styles, "stacktitlecontainer-2")}
+                tag="div"
+              >
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "w_container", "vertical")}
+                  tag="div"
+                >
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "text20px", "unbounded")}
+                    tag="div"
+                  >
+                    {"Bizdev de génie"}
+                  </_Builtin.Block>
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "text16px")}
+                    tag="div"
+                  >
+                    {"3 appareils"}
+                  </_Builtin.Block>
+                </_Builtin.Block>
+                <_Builtin.Block
+                  className={_utils.cx(
+                    _styles,
+                    "w_container",
+                    "alignend",
+                    "gap4px"
+                  )}
+                  tag="div"
+                >
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "text16px", "unbounded")}
+                    tag="div"
+                  >
+                    <_Builtin.Strong>{"74,90 €"}</_Builtin.Strong>
+                    {""}
+                  </_Builtin.Block>
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "text14px-2", "unbounded")}
+                    tag="div"
+                  >
+                    {"/mois"}
+                  </_Builtin.Block>
+                </_Builtin.Block>
+              </_Builtin.Block>
+            </_Builtin.Block>
+          </_Builtin.Block>
+          <_Builtin.Block
+            className={_utils.cx(_styles, "stackunitcontainer-2")}
+            tag="div"
+          >
+            <_Builtin.Block
+              className={_utils.cx(
+                _styles,
+                "w_container",
+                "vertical",
+                "gap24px"
+              )}
+              tag="div"
+            >
+              <_Builtin.Block
+                className={_utils.cx(_styles, "stackimagegrid")}
+                tag="div"
+              >
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "stackimage-2")}
+                  tag="div"
+                />
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "stackimage-2")}
+                  tag="div"
+                />
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "stackimage-2")}
+                  tag="div"
+                />
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "stackimage-2")}
+                  tag="div"
+                />
+              </_Builtin.Block>
+              <_Builtin.Block
+                className={_utils.cx(_styles, "stacktitlecontainer-2")}
+                tag="div"
+              >
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "w_container", "vertical")}
+                  tag="div"
+                >
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "text20px", "unbounded")}
+                    tag="div"
+                  >
+                    {"Bizdev de génie"}
+                  </_Builtin.Block>
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "text16px")}
+                    tag="div"
+                  >
+                    {"3 appareils"}
+                  </_Builtin.Block>
+                </_Builtin.Block>
+                <_Builtin.Block
+                  className={_utils.cx(
+                    _styles,
+                    "w_container",
+                    "alignend",
+                    "gap4px"
+                  )}
+                  tag="div"
+                >
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "text16px", "unbounded")}
+                    tag="div"
+                  >
+                    <_Builtin.Strong>{"74,90 €"}</_Builtin.Strong>
+                    {""}
+                  </_Builtin.Block>
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "text14px-2", "unbounded")}
+                    tag="div"
+                  >
+                    {"/mois"}
+                  </_Builtin.Block>
+                </_Builtin.Block>
+              </_Builtin.Block>
             </_Builtin.Block>
           </_Builtin.Block>
         </_Builtin.Block>

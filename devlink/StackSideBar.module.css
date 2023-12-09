@@ -545,7 +545,8 @@
 }
 
 .componentcontainer.height100 {
-  height: 100%;
+  min-height: 100%;
+  align-items: flex-start;
 }
 
 .text16px {
