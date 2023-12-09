@@ -497,7 +497,7 @@
 .w_container.announce {
   position: absolute;
   top: 4px;
-  right: -300px;
+  right: 0px;
 
   padding: 8px 12px;
   align-items: center;
@@ -507,6 +507,11 @@
   border-radius: 8px;
 
   background-color: var(--main);
+}
+
+.w_container.announce.error {
+  right: -300px;
+  background-color: var(--red);
 }
 
 .w_container._80x80 {
