@@ -290,6 +290,10 @@
   max-width: 640px;
 }
 
+.w_container.vertical.justifyspacebetween.height100 {
+  min-height: 100%;
+}
+
 .w_container._100 {
   width: 100%;
 }
@@ -311,6 +315,12 @@
 
 .w_container.aligncenter.gap8px.overflowhidden {
   overflow: hidden;
+}
+
+@media screen and (max-width: 991px) {
+  .w_container.aligncenter.gap8px.clickable {
+    cursor: pointer;
+  }
 }
 
 .w_container.aligncenter.justifycenter {
@@ -410,7 +420,7 @@
 .w_container.announce {
   position: absolute;
   top: 4px;
-  right: -300px;
+  right: 0px;
 
   padding: 8px 12px;
   align-items: center;
@@ -420,6 +430,11 @@
   border-radius: 8px;
 
   background-color: var(--main);
+}
+
+.w_container.announce.error {
+  right: -300px;
+  background-color: var(--red);
 }
 
 .w_container._80x80 {
