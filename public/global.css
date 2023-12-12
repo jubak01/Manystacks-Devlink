@@ -60,6 +60,7 @@
 .componentcontainer.height100 {
   min-height: 100%;
   align-items: flex-start;
+<<<<<<< HEAD
 }
 
 .componentcontainer.height100.alignstretch {
@@ -68,6 +69,8 @@
 
 .componentcontainer.height100.alignstretch.max100 {
   max-height: 100%;
+=======
+>>>>>>> a0ce956b6c0630d0d41b2a9b02678edd7973f9b2
 }
 
 .text14px {
@@ -1617,6 +1620,7 @@
   overflow: hidden;
 }
 
+<<<<<<< HEAD
 .orderingcontainer {
   width: 100%;
   grid-column-gap: 8px;
@@ -1658,6 +1662,8 @@
   display: grid;
 }
 
+=======
+>>>>>>> a0ce956b6c0630d0d41b2a9b02678edd7973f9b2
 @media screen and (min-width: 1440px) {
   .text14px.icontitle {
     white-space: nowrap;
