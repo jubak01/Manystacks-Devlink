@@ -290,13 +290,10 @@
   max-width: 640px;
 }
 
-<<<<<<< HEAD
 .w_container.vertical.justifyspacebetween.height100 {
   min-height: 100%;
 }
 
-=======
->>>>>>> a0ce956b6c0630d0d41b2a9b02678edd7973f9b2
 .w_container._100 {
   width: 100%;
 }
@@ -320,15 +317,12 @@
   overflow: hidden;
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 991px) {
   .w_container.aligncenter.gap8px.clickable {
     cursor: pointer;
   }
 }
 
-=======
->>>>>>> a0ce956b6c0630d0d41b2a9b02678edd7973f9b2
 .w_container.aligncenter.justifycenter {
   justify-content: center;
 }

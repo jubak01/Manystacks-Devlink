@@ -11,10 +11,7 @@ export * from "./BasketComponent";
 export * from "./BasketPrice";
 export * from "./BasketReco";
 export * from "./Co2";
-<<<<<<< HEAD
 export * from "./CompanyInfoOrder";
-=======
->>>>>>> a0ce956b6c0630d0d41b2a9b02678edd7973f9b2
 export * from "./ErrorAnnouncer";
 export * from "./FilterSideBar";
 export * from "./GridProducts";
@@ -30,6 +27,6 @@ export * from "./ProductMainSpecs";
 export * from "./RecapitulatifOrder";
 export * from "./StackEditor";
 export * from "./StackProduct";
+export * from "./StacksComponent";
 export * from "./StackSelector";
 export * from "./StackSideBar";
-export * from "./StacksComponent";
