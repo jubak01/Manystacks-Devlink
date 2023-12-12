@@ -1578,7 +1578,7 @@
   line-height: 140%;
 }
 
-.stackimage-2 {
+.stackimage {
   width: 100%;
   height: auto;
   background-color: #f7f8f9;
@@ -1591,7 +1591,7 @@
   position: relative;
 }
 
-.stackunitcontainer-2 {
+.stackunitcontainer {
   width: 100%;
   grid-column-gap: 24px;
   grid-row-gap: 24px;
@@ -1645,7 +1645,7 @@
     grid-auto-columns: 1fr;
   }
 
-  .stackunitcontainer-2 {
+  .stackunitcontainer {
     cursor: pointer;
   }
 }
