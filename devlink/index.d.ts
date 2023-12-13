@@ -15,6 +15,7 @@ export * from "./CompanyInfoOrder";
 export * from "./DeliveryChoice";
 export * from "./ErrorAnnouncer";
 export * from "./FilterSideBar";
+export * from "./FinalStepOrder";
 export * from "./GridProducts";
 export * from "./GridProductsSmall";
 export * from "./HeaderMarketPlace";
