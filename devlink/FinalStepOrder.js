@@ -106,10 +106,10 @@ export function FinalStepOrder({ as: _Component = _Builtin.Block }) {
               tag="div"
             >
               <_Builtin.Block
-                className={_utils.cx(_styles, "text-37")}
+                className={_utils.cx(_styles, "text14px", "medium")}
                 tag="div"
               >
-                {"Rechercher par SIREN, SIRET, Nom, etc."}
+                {"Jubril Akinsanya"}
               </_Builtin.Block>
               <_Builtin.Image
                 className={_utils.cx(_styles, "", "vectors-wrapper-5")}
@@ -135,14 +135,14 @@ export function FinalStepOrder({ as: _Component = _Builtin.Block }) {
                 {"Prénom"}
               </_Builtin.Block>
               <_Builtin.Block
-                className={_utils.cx(_styles, "textinput", "grey", "unable")}
+                className={_utils.cx(_styles, "textinput", "grey")}
                 tag="div"
               >
                 <_Builtin.Block
-                  className={_utils.cx(_styles, "text14px", "grey400")}
+                  className={_utils.cx(_styles, "text14px")}
                   tag="div"
                 >
-                  {"91170"}
+                  {"Jubril"}
                 </_Builtin.Block>
               </_Builtin.Block>
             </_Builtin.Block>
@@ -157,14 +157,14 @@ export function FinalStepOrder({ as: _Component = _Builtin.Block }) {
                 {"Nom"}
               </_Builtin.Block>
               <_Builtin.Block
-                className={_utils.cx(_styles, "textinput", "grey", "unable")}
+                className={_utils.cx(_styles, "textinput", "grey")}
                 tag="div"
               >
                 <_Builtin.Block
-                  className={_utils.cx(_styles, "text14px", "grey400")}
+                  className={_utils.cx(_styles, "text14px")}
                   tag="div"
                 >
-                  {"Viry-Châtillon"}
+                  {"Akinsanya"}
                 </_Builtin.Block>
               </_Builtin.Block>
             </_Builtin.Block>
@@ -184,14 +184,14 @@ export function FinalStepOrder({ as: _Component = _Builtin.Block }) {
                 {"Téléphone"}
               </_Builtin.Block>
               <_Builtin.Block
-                className={_utils.cx(_styles, "textinput", "grey", "unable")}
+                className={_utils.cx(_styles, "textinput", "grey")}
                 tag="div"
               >
                 <_Builtin.Block
-                  className={_utils.cx(_styles, "text14px", "grey400")}
+                  className={_utils.cx(_styles, "text14px")}
                   tag="div"
                 >
-                  {"91170"}
+                  {"0634053341"}
                 </_Builtin.Block>
               </_Builtin.Block>
             </_Builtin.Block>
@@ -206,14 +206,14 @@ export function FinalStepOrder({ as: _Component = _Builtin.Block }) {
                 {"Mail"}
               </_Builtin.Block>
               <_Builtin.Block
-                className={_utils.cx(_styles, "textinput", "grey", "unable")}
+                className={_utils.cx(_styles, "textinput", "grey")}
                 tag="div"
               >
                 <_Builtin.Block
-                  className={_utils.cx(_styles, "text14px", "grey400")}
+                  className={_utils.cx(_styles, "text14px")}
                   tag="div"
                 >
-                  {"Viry-Châtillon"}
+                  {"jubril.ak@outlook.fr"}
                 </_Builtin.Block>
               </_Builtin.Block>
             </_Builtin.Block>
