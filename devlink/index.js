@@ -12,6 +12,7 @@ export * from "./BasketPrice";
 export * from "./BasketReco";
 export * from "./Co2";
 export * from "./CompanyInfoOrder";
+export * from "./DeliveryChoice";
 export * from "./ErrorAnnouncer";
 export * from "./FilterSideBar";
 export * from "./GridProducts";
