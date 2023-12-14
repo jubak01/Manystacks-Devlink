@@ -808,6 +808,10 @@
   text-align: center;
 }
 
+.text14px.italic {
+  font-style: italic;
+}
+
 .productimagecontainer {
   overflow: hidden;
   width: 80%;

@@ -713,6 +713,10 @@
   text-align: center;
 }
 
+.text14px.italic {
+  font-style: italic;
+}
+
 .pageselector {
   display: flex;
   padding: 12px 20px;

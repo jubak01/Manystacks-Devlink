@@ -85,7 +85,7 @@
   color: var(--white);
 }
 
-.frame-142 {
+.recapsmallcontainer {
   display: flex;
   overflow: auto;
   width: 100%;
@@ -816,6 +816,10 @@
 
 .text14px.aligncenter {
   text-align: center;
+}
+
+.text14px.italic {
+  font-style: italic;
 }
 
 .separatorhorizontal {

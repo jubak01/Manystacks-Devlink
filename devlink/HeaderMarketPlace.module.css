@@ -801,6 +801,10 @@
   text-align: center;
 }
 
+.text14px.italic {
+  font-style: italic;
+}
+
 .separatorvertical {
   width: 0.000004371140676084906px;
   height: 100%;

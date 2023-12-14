@@ -677,6 +677,10 @@
   text-align: center;
 }
 
+.text14px.italic {
+  font-style: italic;
+}
+
 #w-node-_0c8a3658-7b48-d277-773a-a00c8a68fbaa-8a68fbaa {
   grid-column-start: span 1;
   grid-column-end: span 1;

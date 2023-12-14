@@ -737,6 +737,10 @@
   text-align: center;
 }
 
+.text14px.italic {
+  font-style: italic;
+}
+
 .text20px {
   font-family: Poppins, sans-serif;
   color: rgba(0, 0, 0, 1);

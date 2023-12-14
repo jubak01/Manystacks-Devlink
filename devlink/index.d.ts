@@ -26,6 +26,7 @@ export * from "./NavBar";
 export * from "./NewProductComponent";
 export * from "./PriceProduct";
 export * from "./ProductMainSpecs";
+export * from "./RecapFinal";
 export * from "./RecapitulatifOrder";
 export * from "./StackEditor";
 export * from "./StackProduct";

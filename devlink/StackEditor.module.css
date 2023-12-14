@@ -769,6 +769,10 @@
   text-align: center;
 }
 
+.text14px.italic {
+  font-style: italic;
+}
+
 .textinput {
   display: flex;
   width: 100%;
@@ -794,18 +798,6 @@
 
 .textinput.grey {
   background-color: var(--grey-50);
-}
-
-.textinput.grey.unable {
-  background-color: var(--grey-100);
-  color: var(--grey400);
-}
-
-.textinput.grey.unable:hover {
-  outline-color: var(--grey-100);
-  outline-offset: 0px;
-  outline-style: none;
-  outline-width: 1px;
 }
 
 .div-block-11 {

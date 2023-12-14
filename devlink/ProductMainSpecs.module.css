@@ -800,6 +800,10 @@
   text-align: center;
 }
 
+.text14px.italic {
+  font-style: italic;
+}
+
 .vectors-wrapper-5 {
   display: flex;
   width: 20px;

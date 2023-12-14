@@ -742,6 +742,10 @@
   text-align: center;
 }
 
+.text14px.italic {
+  font-style: italic;
+}
+
 .textinput {
   display: flex;
   width: 100%;
@@ -769,22 +773,12 @@
   background-color: var(--grey-50);
 }
 
-.textinput.grey.unable {
-  background-color: var(--grey-100);
-  color: var(--grey400);
-}
-
-.textinput.grey.unable:hover {
-  outline-color: var(--grey-100);
-  outline-offset: 0px;
-  outline-style: none;
-  outline-width: 1px;
-}
-
 .checkboxselected {
   display: flex;
   width: 20px;
   height: 20px;
+  min-height: 20px;
+  min-width: 20px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
