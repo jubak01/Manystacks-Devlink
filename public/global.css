@@ -1855,7 +1855,7 @@
     flex-direction: row;
   }
 
-  .w_container.vertical.alignleft._100.gap4px, .w_container.vertical.alignleft._100.gap24px {
+  .w_container.vertical.alignleft._100.gap4px, .w_container.vertical.alignleft._100.gap24px, .w_container.vertical.gap24px._100.white {
     flex-direction: column;
   }
 
