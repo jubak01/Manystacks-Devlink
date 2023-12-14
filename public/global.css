@@ -159,6 +159,10 @@
   text-align: center;
 }
 
+.text14px.italic {
+  font-style: italic;
+}
+
 .buttoncircle {
   width: auto;
   grid-column-gap: 12px;
@@ -1433,21 +1437,11 @@
   background-color: var(--grey-50);
 }
 
-.textinput.grey.unable {
-  background-color: var(--grey-100);
-  color: var(--grey400);
-}
-
-.textinput.grey.unable:hover {
-  outline-color: var(--grey-100);
-  outline-offset: 0px;
-  outline-width: 1px;
-  outline-style: none;
-}
-
 .checkboxselected {
   width: 20px;
   height: 20px;
+  min-height: 20px;
+  min-width: 20px;
   cursor: pointer;
   background-color: #7070ff;
   border-radius: 4px;
@@ -1715,7 +1709,7 @@
   overflow: hidden;
 }
 
-.frame-142 {
+.recapsmallcontainer {
   width: 100%;
   height: 100%;
   grid-column-gap: 8px;
@@ -1778,14 +1772,6 @@
   display: flex;
 }
 
-.text-37 {
-  color: #2a3342;
-  font-family: Poppins, sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 140%;
-}
-
 .frame-94 {
   grid-column-gap: 8px;
   grid-row-gap: 8px;
@@ -1808,6 +1794,11 @@
   align-items: center;
   padding: 12px 20px;
   display: flex;
+}
+
+.text-span-4, .text-span-5, .text-span-6 {
+  color: var(--main);
+  font-weight: 600;
 }
 
 @media screen and (min-width: 1440px) {
