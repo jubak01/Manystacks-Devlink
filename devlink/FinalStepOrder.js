@@ -121,7 +121,12 @@ export function FinalStepOrder({ as: _Component = _Builtin.Block }) {
             </_Builtin.Block>
           </_Builtin.Block>
           <_Builtin.Block
-            className={_utils.cx(_styles, "w_container", "gap16px")}
+            className={_utils.cx(
+              _styles,
+              "w_container",
+              "gap16px",
+              "thenvertical"
+            )}
             tag="div"
           >
             <_Builtin.Block
@@ -170,7 +175,12 @@ export function FinalStepOrder({ as: _Component = _Builtin.Block }) {
             </_Builtin.Block>
           </_Builtin.Block>
           <_Builtin.Block
-            className={_utils.cx(_styles, "w_container", "gap16px")}
+            className={_utils.cx(
+              _styles,
+              "w_container",
+              "gap16px",
+              "thenvertical"
+            )}
             tag="div"
           >
             <_Builtin.Block
@@ -219,7 +229,12 @@ export function FinalStepOrder({ as: _Component = _Builtin.Block }) {
             </_Builtin.Block>
           </_Builtin.Block>
           <_Builtin.Block
-            className={_utils.cx(_styles, "w_container", "gap16px")}
+            className={_utils.cx(
+              _styles,
+              "w_container",
+              "gap16px",
+              "thenvertical"
+            )}
             tag="div"
           >
             <_Builtin.Block
@@ -340,7 +355,8 @@ export function FinalStepOrder({ as: _Component = _Builtin.Block }) {
               _styles,
               "w_container",
               "aligncenter",
-              "justifyspacebetween"
+              "justifyspacebetween",
+              "thenvertical"
             )}
             tag="div"
           >
@@ -441,7 +457,8 @@ export function FinalStepOrder({ as: _Component = _Builtin.Block }) {
               _styles,
               "w_container",
               "aligncenter",
-              "justifyspacebetween"
+              "justifyspacebetween",
+              "thenvertical"
             )}
             tag="div"
           >
@@ -576,7 +593,8 @@ export function FinalStepOrder({ as: _Component = _Builtin.Block }) {
               _styles,
               "w_container",
               "aligncenter",
-              "justifyspacebetween"
+              "justifyspacebetween",
+              "thenvertical"
             )}
             tag="div"
           >
@@ -654,7 +672,8 @@ export function FinalStepOrder({ as: _Component = _Builtin.Block }) {
               _styles,
               "w_container",
               "aligncenter",
-              "justifyspacebetween"
+              "justifyspacebetween",
+              "thenvertical"
             )}
             tag="div"
           >

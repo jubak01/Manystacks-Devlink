@@ -11,6 +11,7 @@
 }
 
 .componentcontainer.directionvertical.gap16px {
+  display: none;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
 }
@@ -288,6 +289,12 @@
   background-color: var(--white);
 }
 
+@media screen and (min-width: 1920px) {
+  .w_container.vertical.gap24px._100.white {
+    flex-direction: column;
+  }
+}
+
 .w_container.vertical.gap24px.overflowhidden {
   overflow: hidden;
 }
@@ -370,6 +377,10 @@
   width: 100%;
 }
 
+.w_container._100.justifycenter {
+  justify-content: center;
+}
+
 @media screen and (max-width: 767px) {
   .w_container.alignright {
     justify-content: flex-end;
@@ -401,6 +412,15 @@
 
 @media screen and (max-width: 991px) {
   .w_container.aligncenter.justifyspacebetween.orderbecomevertical {
+    flex-direction: column;
+    align-items: flex-start;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .w_container.aligncenter.justifyspacebetween.thenvertical {
     flex-direction: column;
     align-items: flex-start;
     grid-column-gap: 16px;
@@ -576,6 +596,14 @@
   outline-width: 2px;
 }
 
+@media screen and (max-width: 479px) {
+  .w_container.gap16px.thenvertical {
+    flex-direction: column;
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+  }
+}
+
 .w_container.articlelength {
   width: 120px;
   justify-content: center;
@@ -685,6 +713,11 @@
 
 .text16px.unbounded.medium.green {
   color: var(--green);
+}
+
+.text16px.stepbar {
+  position: absolute;
+  top: 36px;
 }
 
 .text14px {
