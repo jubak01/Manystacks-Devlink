@@ -298,6 +298,155 @@ export function DeliveryChoice({ as: _Component = _Builtin.Block }) {
                   height="20"
                   src="https://uploads-ssl.webflow.com/65474f5b3ac46dc4b33db7b7/65699264fb6c60187bda0213_Vectors-Wrapper.svg"
                 />
+                <_Builtin.Block
+                  className={_utils.cx(_styles, "selectadresschoice")}
+                  tag="div"
+                >
+                  <_Builtin.Block
+                    className={_utils.cx(_styles, "bigbutton", "purple")}
+                    tag="div"
+                  >
+                    <_Builtin.Image
+                      className={_utils.cx(_styles, "image20x20px")}
+                      loading="lazy"
+                      width="auto"
+                      height="auto"
+                      alt=""
+                      src="https://uploads-ssl.webflow.com/65474f5b3ac46dc4b33db7b7/657ed73aa941ecab9566078e_plus.svg"
+                    />
+                    <_Builtin.Block
+                      className={_utils.cx(_styles, "text14px", "white")}
+                      tag="div"
+                    >
+                      {"Ajouter une adresse"}
+                    </_Builtin.Block>
+                  </_Builtin.Block>
+                  <_Builtin.Block
+                    className={_utils.cx(
+                      _styles,
+                      "w_container",
+                      "vertical",
+                      "overflowauto"
+                    )}
+                    id={_utils.cx(
+                      _styles,
+                      "w-node-baeb7878-f435-7f07-ddda-74a26548489e-9b489de2"
+                    )}
+                    tag="div"
+                  >
+                    <_Builtin.Block
+                      className={_utils.cx(
+                        _styles,
+                        "w_container",
+                        "vertical",
+                        "gap4px",
+                        "padding12px",
+                        "grey",
+                        "clickable"
+                      )}
+                      tag="div"
+                    >
+                      <_Builtin.Block
+                        className={_utils.cx(_styles, "text14px", "medium")}
+                        tag="div"
+                      >
+                        {"Siège social"}
+                      </_Builtin.Block>
+                      <_Builtin.Block
+                        className={_utils.cx(_styles, "text14px", "grey400")}
+                        tag="div"
+                      >
+                        {"10 impasse de la Haute Plaine"}
+                      </_Builtin.Block>
+                      <_Builtin.Block
+                        className={_utils.cx(_styles, "text14px", "grey400")}
+                        tag="div"
+                      >
+                        {"91170 Viry-Châtillon"}
+                      </_Builtin.Block>
+                      <_Builtin.Block
+                        className={_utils.cx(_styles, "text14px", "grey400")}
+                        tag="div"
+                      >
+                        {"France"}
+                      </_Builtin.Block>
+                    </_Builtin.Block>
+                    <_Builtin.Block
+                      className={_utils.cx(
+                        _styles,
+                        "w_container",
+                        "vertical",
+                        "gap4px",
+                        "padding12px",
+                        "grey",
+                        "clickable"
+                      )}
+                      tag="div"
+                    >
+                      <_Builtin.Block
+                        className={_utils.cx(_styles, "text14px", "medium")}
+                        tag="div"
+                      >
+                        {"Siège social"}
+                      </_Builtin.Block>
+                      <_Builtin.Block
+                        className={_utils.cx(_styles, "text14px", "grey400")}
+                        tag="div"
+                      >
+                        {"10 impasse de la Haute Plaine"}
+                      </_Builtin.Block>
+                      <_Builtin.Block
+                        className={_utils.cx(_styles, "text14px", "grey400")}
+                        tag="div"
+                      >
+                        {"91170 Viry-Châtillon"}
+                      </_Builtin.Block>
+                      <_Builtin.Block
+                        className={_utils.cx(_styles, "text14px", "grey400")}
+                        tag="div"
+                      >
+                        {"France"}
+                      </_Builtin.Block>
+                    </_Builtin.Block>
+                    <_Builtin.Block
+                      className={_utils.cx(
+                        _styles,
+                        "w_container",
+                        "vertical",
+                        "gap4px",
+                        "padding12px",
+                        "grey",
+                        "clickable"
+                      )}
+                      tag="div"
+                    >
+                      <_Builtin.Block
+                        className={_utils.cx(_styles, "text14px", "medium")}
+                        tag="div"
+                      >
+                        {"Siège social"}
+                      </_Builtin.Block>
+                      <_Builtin.Block
+                        className={_utils.cx(_styles, "text14px", "grey400")}
+                        tag="div"
+                      >
+                        {"10 impasse de la Haute Plaine"}
+                      </_Builtin.Block>
+                      <_Builtin.Block
+                        className={_utils.cx(_styles, "text14px", "grey400")}
+                        tag="div"
+                      >
+                        {"91170 Viry-Châtillon"}
+                      </_Builtin.Block>
+                      <_Builtin.Block
+                        className={_utils.cx(_styles, "text14px", "grey400")}
+                        tag="div"
+                      >
+                        {"France"}
+                      </_Builtin.Block>
+                    </_Builtin.Block>
+                  </_Builtin.Block>
+                </_Builtin.Block>
               </_Builtin.Block>
             </_Builtin.Block>
           </_Builtin.Block>
@@ -634,7 +783,8 @@ export function DeliveryChoice({ as: _Component = _Builtin.Block }) {
             "w_container",
             "vertical",
             "gap12px",
-            "overflowauto"
+            "overflowauto",
+            "hide"
           )}
           tag="div"
         >

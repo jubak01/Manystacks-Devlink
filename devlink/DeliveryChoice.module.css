@@ -11,7 +11,7 @@
 }
 
 .componentcontainer.directionvertical.gap16px {
-  display: none;
+  display: flex;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
 }
@@ -336,6 +336,15 @@
   grid-row-gap: 4px;
 }
 
+.w_container.vertical.gap4px.padding12px.grey {
+  border-radius: 8px;
+  background-color: var(--grey-50);
+}
+
+.w_container.vertical.gap4px.padding12px.grey.clickable {
+  cursor: pointer;
+}
+
 .w_container.vertical.gap2px {
   grid-column-gap: 2px;
   grid-row-gap: 2px;
@@ -365,12 +374,20 @@
   overflow: auto;
 }
 
+.w_container.vertical.gap12px.overflowauto.hide {
+  display: none;
+}
+
 .w_container.vertical.aligncenter.gap12px.empty {
   max-width: 640px;
 }
 
 .w_container.vertical.justifyspacebetween.height100 {
   min-height: 100%;
+}
+
+.w_container.vertical.overflowauto {
+  overflow: auto;
 }
 
 .w_container._100 {
@@ -914,4 +931,71 @@
 
   cursor: pointer;
   object-fit: cover;
+}
+
+.selectadresschoice {
+  position: absolute;
+  left: 0px;
+  top: 110%;
+  right: 0px;
+  z-index: 100;
+
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  max-height: 320px;
+  min-height: 320px;
+  padding: 8px;
+  flex-direction: column;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+
+  border-radius: 8px;
+
+  background-color: var(--white);
+
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);
+}
+
+.bigbutton {
+  display: flex;
+  width: 100%;
+  padding: 12px 14px;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 12px;
+
+  background-color: rgba(255, 255, 255, 1);
+
+  cursor: pointer;
+}
+
+.bigbutton.purple {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  background-color: var(--main);
+  cursor: pointer;
+}
+
+.image20x20px {
+  width: 20px;
+  height: 20px;
+  min-height: 20px;
+  min-width: 20px;
+  object-fit: cover;
+}
+
+.image20x20px.clickable {
+  cursor: pointer;
+}
+
+#w-node-baeb7878-f435-7f07-ddda-74a26548489e-9b489de2 {
+  grid-column-start: span 1;
+  grid-column-end: span 1;
+  grid-row-start: span 1;
+  grid-row-end: span 1;
 }
