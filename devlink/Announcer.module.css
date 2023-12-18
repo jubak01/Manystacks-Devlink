@@ -275,6 +275,15 @@
   grid-row-gap: 4px;
 }
 
+.w_container.vertical.gap4px.padding12px.grey {
+  border-radius: 8px;
+  background-color: var(--grey-50);
+}
+
+.w_container.vertical.gap4px.padding12px.grey.clickable {
+  cursor: pointer;
+}
+
 .w_container.vertical.gap2px {
   grid-column-gap: 2px;
   grid-row-gap: 2px;
@@ -304,12 +313,20 @@
   overflow: auto;
 }
 
+.w_container.vertical.gap12px.overflowauto.hide {
+  display: none;
+}
+
 .w_container.vertical.aligncenter.gap12px.empty {
   max-width: 640px;
 }
 
 .w_container.vertical.justifyspacebetween.height100 {
   min-height: 100%;
+}
+
+.w_container.vertical.overflowauto {
+  overflow: auto;
 }
 
 .w_container._100 {
