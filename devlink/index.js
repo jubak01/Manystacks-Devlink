@@ -32,7 +32,7 @@ export * from "./RecapFinal";
 export * from "./RecapitulatifOrder";
 export * from "./StackEditor";
 export * from "./StackProduct";
+export * from "./StacksComponent";
 export * from "./StackSelector";
 export * from "./StackSideBar";
-export * from "./StacksComponent";
 export * from "./StepsComponent";
