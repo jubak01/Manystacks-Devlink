@@ -476,6 +476,19 @@
   }
 }
 
+<<<<<<< Updated upstream
+=======
+.w_container._100.height100 {
+  height: 100%;
+}
+
+@media screen and (min-width: 1920px) {
+  .w_container._100.height100.justifycenter.aligncenter.vertical.gap24px {
+    flex-direction: column;
+  }
+}
+
+>>>>>>> Stashed changes
 @media screen and (max-width: 767px) {
   .w_container.alignright {
     justify-content: flex-end;
@@ -556,6 +569,14 @@
     grid-column-gap: 8px;
     grid-row-gap: 8px;
   }
+}
+
+.w_container.aligncenter.vertical.widthmax600px {
+  max-width: 600px;
+}
+
+.w_container.aligncenter.vertical.widthmax400px {
+  max-width: 400px;
 }
 
 .w_container.verticalthenhorizontal {

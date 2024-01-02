@@ -36,3 +36,4 @@ export * from "./StackSelector";
 export * from "./StackSideBar";
 export * from "./StacksComponent";
 export * from "./StepsComponent";
+export * from "./SuccessOrderComponent";

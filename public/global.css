@@ -495,6 +495,13 @@
   align-items: flex-end;
 }
 
+<<<<<<< Updated upstream
+=======
+.w_container._100.height100 {
+  height: 100%;
+}
+
+>>>>>>> Stashed changes
 .w_container.aligncenter {
   align-items: center;
 }
@@ -527,6 +534,14 @@
 
 .w_container.aligncenter.verticalonphone.stack {
   flex-direction: row;
+}
+
+.w_container.aligncenter.vertical.widthmax600px {
+  max-width: 600px;
+}
+
+.w_container.aligncenter.vertical.widthmax400px {
+  max-width: 400px;
 }
 
 .w_container.verticalthenhorizontal {
@@ -1253,6 +1268,10 @@
 .text24px.unbounded.medium {
   font-weight: 500;
   line-height: 140%;
+}
+
+.text24px.unbounded.aligncenter {
+  line-height: 120%;
 }
 
 .productpagegrid {
@@ -2079,7 +2098,7 @@
     flex-direction: row;
   }
 
-  .w_container.vertical.alignleft._100.gap4px, .w_container.vertical.alignleft._100.gap24px, .w_container.vertical.gap24px._100.white {
+  .w_container.vertical.alignleft._100.gap4px, .w_container.vertical.alignleft._100.gap24px, .w_container.vertical.gap24px._100.white, .w_container._100.height100.justifycenter.aligncenter.vertical.gap24px {
     flex-direction: column;
   }
 
@@ -2348,6 +2367,10 @@
     cursor: pointer;
   }
 
+  .text24px.unbounded.aligncenter {
+    text-align: center;
+  }
+
   .stacksgrid {
     grid-template-columns: 1fr;
   }
@@ -2445,7 +2468,7 @@
   }
 }
 
-#w-node-_2996cc29-4451-7171-69e1-d35d642ec7fe-642ec7f9, #w-node-_2996cc29-4451-7171-69e1-d35d642ec80f-642ec7f9, #w-node-_2996cc29-4451-7171-69e1-d35d642ec820-642ec7f9, #w-node-_2996cc29-4451-7171-69e1-d35d642ec831-642ec7f9, #w-node-_2996cc29-4451-7171-69e1-d35d642ec842-642ec7f9, #w-node-_2996cc29-4451-7171-69e1-d35d642ec853-642ec7f9, #w-node-c4708148-fd67-2da7-90f3-4cc3ee04f831-b8c5a45b, #w-node-_0d3945de-bcd5-c6dd-3fb0-ed0d587742c0-b8c5a45b, #w-node-bd35a351-46c4-7f12-3618-1198ee58bba6-b8c5a45b, #w-node-bd35a351-46c4-7f12-3618-1198ee58bbb7-b8c5a45b, #w-node-bd35a351-46c4-7f12-3618-1198ee58bbc8-b8c5a45b, #w-node-bd35a351-46c4-7f12-3618-1198ee58bbd9-b8c5a45b, #w-node-bd35a351-46c4-7f12-3618-1198ee58bbea-b8c5a45b, #w-node-bd35a351-46c4-7f12-3618-1198ee58bbfb-b8c5a45b, #w-node-_0c8a3658-7b48-d277-773a-a00c8a68fbaa-8a68fbaa, #w-node-_50778a23-b872-ea51-b101-94091e469243-1e46923e, #w-node-_50778a23-b872-ea51-b101-94091e469254-1e46923e, #w-node-_50778a23-b872-ea51-b101-94091e469265-1e46923e, #w-node-_50778a23-b872-ea51-b101-94091e469276-1e46923e, #w-node-ff1a4c10-1a5b-84fc-94aa-def6bec19fff-581f0ac5, #w-node-_311c8fbb-f60a-5e6c-b655-dd3bc2541703-c2541703, #w-node-_3d76828e-8dfe-284d-74e0-e603e6b42e44-e6b42e44, #w-node-df032265-6f47-a3fd-31c6-5dd9992afc38-992afc38, #w-node-baeb7878-f435-7f07-ddda-74a26548489e-9b489de2 {
+#w-node-_2996cc29-4451-7171-69e1-d35d642ec7fe-642ec7f9, #w-node-_2996cc29-4451-7171-69e1-d35d642ec80f-642ec7f9, #w-node-_2996cc29-4451-7171-69e1-d35d642ec820-642ec7f9, #w-node-_2996cc29-4451-7171-69e1-d35d642ec831-642ec7f9, #w-node-_2996cc29-4451-7171-69e1-d35d642ec842-642ec7f9, #w-node-_2996cc29-4451-7171-69e1-d35d642ec853-642ec7f9, #w-node-c4708148-fd67-2da7-90f3-4cc3ee04f831-b8c5a45b, #w-node-_0d3945de-bcd5-c6dd-3fb0-ed0d587742c0-b8c5a45b, #w-node-bd35a351-46c4-7f12-3618-1198ee58bba6-b8c5a45b, #w-node-bd35a351-46c4-7f12-3618-1198ee58bbb7-b8c5a45b, #w-node-bd35a351-46c4-7f12-3618-1198ee58bbc8-b8c5a45b, #w-node-bd35a351-46c4-7f12-3618-1198ee58bbd9-b8c5a45b, #w-node-bd35a351-46c4-7f12-3618-1198ee58bbea-b8c5a45b, #w-node-bd35a351-46c4-7f12-3618-1198ee58bbfb-b8c5a45b, #w-node-_0c8a3658-7b48-d277-773a-a00c8a68fbaa-8a68fbaa, #w-node-_50778a23-b872-ea51-b101-94091e469243-1e46923e, #w-node-_50778a23-b872-ea51-b101-94091e469254-1e46923e, #w-node-_50778a23-b872-ea51-b101-94091e469265-1e46923e, #w-node-_50778a23-b872-ea51-b101-94091e469276-1e46923e, #w-node-ff1a4c10-1a5b-84fc-94aa-def6bec19fff-581f0ac5, #w-node-_311c8fbb-f60a-5e6c-b655-dd3bc2541703-c2541703, #w-node-_3d76828e-8dfe-284d-74e0-e603e6b42e44-e6b42e44, #w-node-df032265-6f47-a3fd-31c6-5dd9992afc38-992afc38, #w-node-baeb7878-f435-7f07-ddda-74a26548489e-9b489de2, #w-node-_7ec01177-4aec-6d95-11b0-f11099e3682b-99e3682b {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 

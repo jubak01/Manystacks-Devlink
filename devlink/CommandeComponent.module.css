@@ -433,6 +433,19 @@
   }
 }
 
+<<<<<<< Updated upstream
+=======
+.w_container._100.height100 {
+  height: 100%;
+}
+
+@media screen and (min-width: 1920px) {
+  .w_container._100.height100.justifycenter.aligncenter.vertical.gap24px {
+    flex-direction: column;
+  }
+}
+
+>>>>>>> Stashed changes
 @media screen and (max-width: 767px) {
   .w_container.alignright {
     justify-content: flex-end;
@@ -515,6 +528,17 @@
   }
 }
 
+<<<<<<< Updated upstream
+=======
+.w_container.aligncenter.vertical.widthmax600px {
+  max-width: 600px;
+}
+
+.w_container.aligncenter.vertical.widthmax400px {
+  max-width: 400px;
+}
+
+>>>>>>> Stashed changes
 .w_container.verticalthenhorizontal {
   flex-direction: column;
 }
