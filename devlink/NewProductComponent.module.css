@@ -433,8 +433,6 @@
   }
 }
 
-<<<<<<< Updated upstream
-=======
 .w_container._100.height100 {
   height: 100%;
 }
@@ -445,7 +443,6 @@
   }
 }
 
->>>>>>> Stashed changes
 @media screen and (max-width: 767px) {
   .w_container.alignright {
     justify-content: flex-end;
