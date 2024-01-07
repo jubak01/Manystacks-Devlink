@@ -701,6 +701,10 @@
   border-radius: 8px;
 }
 
+.w_container.white.round.toggles {
+  border-radius: 10000px;
+}
+
 .pageselector {
   grid-column-gap: 8px;
   grid-row-gap: 8px;
@@ -1829,7 +1833,7 @@
   grid-row-gap: 10px;
   background-color: var(--white);
   cursor: pointer;
-  border-radius: 8px;
+  border-radius: 1000px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -1838,7 +1842,8 @@
 }
 
 .toggle.selected {
-  background-color: var(--main);
+  border: 2px solid var(--main);
+  background-color: var(--lightpurple);
 }
 
 .frame-164 {
