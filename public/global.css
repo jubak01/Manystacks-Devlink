@@ -19,6 +19,7 @@
   --pink: #f44d97;
   --yellow-light: rgba(251, 178, 11, .1);
   --yellow: #fbb20b;
+  --green-light: rgba(13, 210, 122, .1);
 }
 
 .separatorvertical {
@@ -2875,6 +2876,16 @@
 .tagblock.yellow {
   background-color: var(--yellow-light);
   color: var(--yellow);
+}
+
+.tagblock.green {
+  background-color: var(--green-light);
+  color: var(--green);
+}
+
+.tagblock.purple {
+  background-color: var(--lightpurple);
+  color: var(--main);
 }
 
 .text-32 {
